@@ -1,3 +1,44 @@
-body{
-background-color: blueviolet;
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500&family=Roboto:wght@100;300;400;500&display=swap');
+
+*{
+margin: 0;
+padding:0;
+border:none;
 }
+
+body{
+font-family: open sans, sans-serif;
+font-weight: 300;
+color:#3a3a3a;
+
+}
+/* heagind and logo*/
+
+#logo{
+    float:left;
+    font-size:130%;  
+}
+
+h1,h2,h3,h4{
+font-family: roboto, sans-serif;
+letter-spacing:1px;
+color:#252525;
+
+}
+
+/* navigation links*/
+#menu{
+    font-size:110% ;
+    letter-spacing: 1px;
+}
+
+#menu li{
+    float:right;
+    list-style-type: none;
+    margin-left: 25px;
+}
+
+#menu a{
+        text-decoration: none;
+        color:inherit;
+    }
