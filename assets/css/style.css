@@ -26,6 +26,17 @@ color:#252525;
 
 }
 
+/* background-color for sections*/
+.light-gray{
+background-color: rgb(231, 234,244, 0.7);
+}
+
+
+.light-blue{
+    background-color: rgb(91, 155,162, 0.08);
+    }
+    
+
 /* navigation links*/
 #menu{
     font-size:110% ;
@@ -126,4 +137,28 @@ background-color: red;
        
     }
 
+    section#services{
+       height: 400px;       
+        padding-top: 40px;
+        padding-left: 10px; 
+        
+    }
    
+    /* services section*/
+
+#services-box{
+    border-bottom:  1px solid red;
+
+   
+}
+
+    .services-icon{
+      width: 200px;
+      height: 200px; 
+      background-color: rgb(2, 100, 111, 0.7); 
+      float:left;
+      margin-right: 50px; 
+      border-radius: 50%;
+      text-align: center;
+      color:#fff;
+    }
