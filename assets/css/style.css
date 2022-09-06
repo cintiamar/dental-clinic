@@ -12,7 +12,30 @@ font-weight: 300;
 color:#3a3a3a;
 
 }
-/* heagind and logo*/
+
+/* ----- basic layout config -------*/
+
+.innerbox {
+    max-width: 940px;
+    margin: 0 auto;
+    position: relative;  /* relative = como o Eltern Element*/
+    padding:0 2%;
+    border:2px solid yellow;
+  }
+  
+  
+  section .innerbox,
+  #schnellkontakt .innerbox,
+  footer .innerbox {
+    padding:50px 2%;
+  /*  border:1px solid #f00; */
+  } 
+  
+
+
+/*   ---- basic layout config end ------*/
+
+/* heading and logo*/
 
 #logo{
     float:left;
@@ -43,7 +66,14 @@ background-color: rgb(231, 234,244, 0.7);
         float:left;	
         margin-right:2%;
         }
-        
+        .one-third{
+            width:30%;
+            float:left;	
+            margin-right:2%;
+           
+            }
+               
+
 
 /* navigation links*/
 #menu{
@@ -100,13 +130,14 @@ background-color: red;
         
     }
 
+    /*section configuration*/
+    section{
+    padding-bottom:4em; 
+    }
+ 
 
     /*welcome*/
-    .row{
-overflow: hidden;
-margin:20px 0;
-
-    }
+  
 #welcome-1{
     background-color: rgb(2, 100, 111, 0.7);   
     color:#fff;
@@ -131,30 +162,46 @@ margin:20px 0;
     padding-top: 40px;
 
     }
-
+/* services and icons*/
     section#services{
        height: 400px;       
-        padding-top: 40px;
+        padding-top: 140px;
         padding-left: 10px; 
+        height: auto;
         
     }
+     
+    .services-icon-box{
+        width: 200px;
+        height: 200px; 
+      background-color: rgb(2, 100, 111, 0.7);  
+        float:left;
+        margin-right: 50px; 
+        border-radius: 50%;
+        text-align: center;
+        color:#fff;       
+    }   
    
+      
 
-    /* services section*/
+  
+ .services-icon-box h4{
+color:#fff;
+font-weight: 400;
+font-size:110% ;
+letter-spacing: 1px;
 
-#services-box{
-    border-bottom:  1px solid red;
+      }
 
-   
+.flex-container{
+  display: flex;  
+justify-content:center; 
 }
 
-    .services-icon{
-      width: 200px;
-      height: 200px; 
-      background-color: rgb(2, 100, 111, 0.7); 
-      float:left;
-      margin-right: 50px; 
-      border-radius: 50%;
-      text-align: center;
-      color:#fff;
+.web-icons { 
+ color:#fff;
+ font-size:70px;
     }
+
+
+  
