@@ -70,9 +70,28 @@ color:#3a3a3a;
 
 /* heading and logo*/
 
-#logo{
+#logo-name{
     float:left;
     font-size:130%;  
+
+    a.logo img{
+
+        max-width:100px;
+        opacity:0.65;
+        position:absolute;
+        top:0;
+        left:0;	
+        /*z-index:9999; /* z-index + position: fixed deixa essa imagen ribbon fixa  enquanto scroll para baixo  */
+        margin-top:0;
+        display:inline-block;
+        margin-top:10px;
+        float:left;
+        margin-left:120px;  /*margin right no menu2 = 15px tambem!*/
+
+
+
+
+    }
 }
 
 h1,h2,h3,h4{
@@ -154,10 +173,7 @@ header#main{
 
 
     
-#menu, #logo{
-    /*line-height: 75px;  */
-  
-        }
+
 
 nav#menu{
     float: right;
