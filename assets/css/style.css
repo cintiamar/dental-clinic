@@ -132,19 +132,37 @@ background-color: rgb(231, 234,244, 0.7);
             }
 
 
-/* navigation links*/
+/* ---- navigation links ---- */
 
-header{
+
+header#main{
     height: 4em;
+  /*  position: fixed; */
+    top: 0px;
+    max-height: 70px;
+    overflow: hidden;
+    z-index: 999;
+    width: 100%;
+    padding-top: 17px;
+    /* background: none; */  /* nao tem nenhum logo nao tem pq ter esse comando ativo*/
+     /*opacity: 0; */
+    -webkit-transition: all 0.3s;
+    transition: all 0.3s;  
+    padding-bottom: 6px;
+  
 }
+
 
     
 #menu, #logo{
     /*line-height: 75px;  */
-    background-color: red;
+  
         }
 
-
+nav#menu{
+    float: right;
+    margin-right: 0;
+}
 
 #menu{
     font-size:110% ;
