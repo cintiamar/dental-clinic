@@ -320,8 +320,30 @@ section#welcome .half{
         position: relative;  /* needed because the child ul.services-list.center is flex, position absoltute*/
     }   
    
-      
+  
+.services-icon-box:hover {
+    background-color: rgb(2, 100, 111, 0.5);  
+           }
+   
+   .services-icon-box i:hover{
+    color:	#fff;	
+    color:rgba (255,255,255,0.3);
+           }
+   
+   .services-icon-box:hover, .services-icon-box i:hover  {
+  /*  background-color: rgb(255, 255, 255, 0.7);*/
+    -moz-transition: all 0.4s ease-in-out;
+     -o-transition: all 0.4s ease-in-out;
+     -ms-transition: all 0.4s ease-in-out;
+     transition: all 0.4s ease-in-out;
+           } 
+           
 
+        .services-icon-box h4:hover{
+            color:	#02646E;	
+            color:rgba (2,100,110,0.7);
+        
+            } 
   
  .services-icon-box h4{
 color:#fff;
