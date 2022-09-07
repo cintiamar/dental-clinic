@@ -348,3 +348,8 @@ section#about div.one-third, section#about div.two-thirds{
 border: 1px solid aqua;
 height: 100px;
 } 
+
+section#reviews .one-third{
+    border: 1px solid aqua;
+    height: 100px;
+    } 
