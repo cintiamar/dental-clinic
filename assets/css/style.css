@@ -328,5 +328,9 @@ justify-content:center; /*align span inside div*/
     transition: width .6s ease;
 }
 
+div.progress{
+margin-top:0;
+
+}
 
 /*  ---END  progress-bar -- */
