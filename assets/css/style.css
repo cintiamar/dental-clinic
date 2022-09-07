@@ -73,11 +73,12 @@ color:#3a3a3a;
 #logo-name{
     float:left;
     font-size:130%;  
+}
 
     a.logo img{
 
-        max-width:100px;
-        opacity:0.65;
+        max-width:40px;
+        /*opacity:0.65; */
         position:absolute;
         top:0;
         left:0;	
@@ -87,12 +88,13 @@ color:#3a3a3a;
         margin-top:10px;
         float:left;
         margin-left:120px;  /*margin right no menu2 = 15px tambem!*/
-
-
-
-
+    
     }
-}
+
+
+
+
+
 
 h1,h2,h3,h4{
 font-family: roboto, sans-serif;
@@ -195,6 +197,21 @@ nav#menu{
         text-decoration: none;
         color:inherit;
     }
+
+    #menu a:hover{
+        border-bottom:1px solid #4AAF52;
+        color:#02646E!important;
+        color:rgb(2, 100, 110,1);
+        font-size:105%;
+        font-weight:500;	
+      -webkit-transition: all 0.2s ease-in-out;
+         -moz-transition: all 0.2s ease-in-out;
+         -o-transition: all 0.2s ease-in-out;
+         -ms-transition: all 0.2s ease-in-out;
+         transition: all 0.2s ease-in-out;
+         
+    }
+
 
     
 
