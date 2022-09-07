@@ -343,3 +343,8 @@ margin-top:0;
 }
 
 /*  ---END  progress-bar -- */
+
+section#about div.one-third, section#about div.two-thirds{
+border: 1px solid aqua;
+height: 100px;
+} 
