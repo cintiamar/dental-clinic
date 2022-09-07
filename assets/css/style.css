@@ -6,6 +6,24 @@ padding:0;
 border:none;
 }
 
+
+/* notes*/
+
+main{
+    padding:20px;
+    
+    /*padding:20px 		               oben/unten/links/rechts
+    padding:20px 0 		               oben/unten, links/rechts
+    padding:20px 0  10px               oben,links/rechts, unten
+    padding:20px 19px 18px  17px       oben, rechts, unten, links
+    */
+    
+    }
+
+
+
+/*----- notes end ---*/
+
 body{
 font-family: open sans, sans-serif;
 font-weight: 300;
@@ -16,21 +34,36 @@ color:#3a3a3a;
 /* ----- basic layout config -------*/
 
 .innerbox {
-    max-width: 940px;
+    max-width: 960px;
     margin: 0 auto;
     position: relative;  /* relative = como o Eltern Element*/
     padding:0 2%;
     border:2px solid yellow;
   }
+
+
+  /* ---- section configuration -----*/
+  section{       border:1px solid #f0f;     }
+ 
+  section .innerbox, footer .innerbox {
+  padding:30px 2%;    /* oben/unten, links/rechts  */
+  border:1px solid orangered; 
+
+  } 
+  
   
   
   section .innerbox,
   #schnellkontakt .innerbox,
   footer .innerbox {
-    padding:50px 2%;
+    /*padding:50px 2%;*/
   /*  border:1px solid #f00; */
   } 
   
+
+   /*--- end of section config ---*/
+
+
 
 
 /*   ---- basic layout config end ------*/
@@ -45,9 +78,21 @@ color:#3a3a3a;
 h1,h2,h3,h4{
 font-family: roboto, sans-serif;
 letter-spacing:1px;
-color:#252525;
-
+/*color:#252525;*/
+color:#4B535E;
 }
+
+h1{
+   /* font-size: ;
+    font-weight: ; */
+}
+
+h2{
+    font-size: 24px;
+    font-weight:500 ;
+    text-transform: capitalize;
+}
+
 
 /* background-color for sections*/
 .light-gray{
@@ -130,10 +175,6 @@ background-color: red;
         
     }
 
-    /*section configuration*/
-    section{
-    padding-bottom:4em; 
-    }
  
 
     /*welcome*/
@@ -168,8 +209,17 @@ background-color: red;
         padding-top: 140px;
         padding-left: 10px; 
         height: auto;
-        
+      
     }
+
+    div#services-box.flex-container{
+    border:2px solid red!important;
+    }
+
+    div#services-box.flex-container div{
+           border:2px solid greenyellow;
+    }
+
      
     .services-icon-box{
         width: 200px;
@@ -179,7 +229,9 @@ background-color: red;
         margin-right: 50px; 
         border-radius: 50%;
         text-align: center;
-        color:#fff;       
+        color:#fff;      
+        
+        position: relative;  /* needed because the child ul.services-list.center is flex, position absoltute*/
     }   
    
       
@@ -193,9 +245,28 @@ letter-spacing: 1px;
 
       }
 
+ul.services-list{
+    list-style-type:none;  /*eliminate bullets from ul */
+    
+  /*  top:50%; */
+   /* transform:translate(-50%,-50%);*/
+    /*transform:translate(0,-50%); /* only  axis Y !!  */
+    /* transform:translateY(-50%);  */
+   /* transform:translateY(30%);*/
+}
+
+.center {
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+  }
+
 .flex-container{
   display: flex;  
-justify-content:center; 
+justify-content:center; /*align span inside div*/
 }
 
 .web-icons { 
@@ -203,5 +274,8 @@ justify-content:center;
  font-size:70px;
     }
 
-
+.section-test{
+    height: 120px;
+  width: auto;
+}
   
