@@ -107,6 +107,13 @@ background-color: rgb(231, 234,244, 0.7);
     
 
     /*% columns*/
+
+    .one-third{
+        width:28%;
+        float:left;	
+        margin-right:2%;
+       
+        }
     .half{
         width:48%;
         float:left;	
@@ -114,13 +121,15 @@ background-color: rgb(231, 234,244, 0.7);
         border:1px solid blueviolet;
         }
 
-        .one-third{
-            width:30%;
-            float:left;	
-            margin-right:2%;
-           
-            }
+     
                
+
+            .two-thirds{
+                width:64%;
+                float:left;	
+                margin-right:2%;	
+
+            }
 
 
 /* navigation links*/
