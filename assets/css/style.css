@@ -124,15 +124,28 @@ background-color: rgb(231, 234,244, 0.7);
      
                
 
-            .two-thirds{
-                width:64%;
-                float:left;	
-                margin-right:2%;	
+    .two-thirds{
+        width:64%;
+        float:left;	
+        margin-right:2%;	
 
             }
 
 
 /* navigation links*/
+
+header{
+    height: 4em;
+}
+
+    
+#menu, #logo{
+    /*line-height: 75px;  */
+    background-color: red;
+        }
+
+
+
 #menu{
     font-size:110% ;
     letter-spacing: 1px;
@@ -149,10 +162,7 @@ background-color: rgb(231, 234,244, 0.7);
         color:inherit;
     }
 
-#menu, #logo{
-line-height: 75px;
-background-color: red;
-    }
+    
 
     /* hero*/
 
