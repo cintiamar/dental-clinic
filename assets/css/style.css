@@ -320,8 +320,8 @@ justify-content:center; /*align span inside div*/
     line-height: 20px;
     color: #fff;
     text-align: center;
-    background-color: #02646F;
-    -webkit-box-shadow: inset 0 -1px 0 rgba(2, 100, 111, .15);
+    background-color: #4AAF52;
+    -webkit-box-shadow: inset 0 -1px 0 rgba(74, 175, 82, .15);
     box-shadow: inset 0 -1px 0 rgba(45, 45, 50, .15);
     -webkit-transition: width .6s ease;
     -o-transition: width .6s ease;
