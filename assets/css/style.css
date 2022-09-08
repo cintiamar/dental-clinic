@@ -505,17 +505,16 @@ color:rgba(58, 58,58, 0.7);
 
 }
 
-
+/*--- section#about--- */
 
 section#about div.one-third, section#about div.two-thirds{
 border: 1px solid aqua;
-
 } 
 
-section#reviews .one-third{
-    border: 1px solid aqua;
-    height: 100px;
-    } 
+ 
+section#about div.two-thirds{
+    margin-left: 0!important; /* to align <p> with h2 . it was taking margin from .two-thirds*/    
+    }
 
     
 #about .one-third img{
@@ -554,3 +553,39 @@ border: 1px solid salmon;
 transition: all 0.4s ease-in-out;
 
 }
+
+
+
+
+/* END-- section#about--- */
+
+
+/*--- section#reviews--- */
+
+section#reviews .one-third{
+    border: 1px solid aqua;
+    height: 100px;
+    } 
+
+    /* END-- section#reviews--- */
+
+    
+section#reviews .one-third{
+    border: 1px solid aqua;
+    height: 100px;
+    } 
+    
+section#faq .one-third{
+    border: 1px solid aqua;
+    height: 100px;
+    /*display: flex; */
+    } 
+
+    section#faq {
+     
+        height: auto;
+     
+        margin:0;
+        } 
+    
+   
