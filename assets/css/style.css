@@ -485,4 +485,27 @@ section#reviews .one-third{
     width:100%;
     }
     
-    
+#image-message{
+    height: 80px;
+text-align: center;
+}
+
+#image-message i{
+font-size:170%;
+color:#4AAF52;;
+    }   
+
+#image-message i:hover{
+ color:#fff;
+            }   
+
+#image-message:hover{           
+background-color:#4AAF52;;
+}   
+      
+#image-message > span:hover{     
+    color:#fff;;    
+ 
+border: 1px solid salmon;
+        }   
+           
