@@ -127,6 +127,43 @@ h2{
 
     }
 
+    p {
+        /* text-indent: 1em;*/
+        text-align: justify;
+        text-transform: capitalize; 
+       color:#2d2d2d;	
+       color:rgba(45,45,45,0.9);	/*  changed the intensity to 0.5 */
+       font-weight: 400;
+       }
+     
+       
+section p{      /* set space between paragraphs*/
+    line-height:22px;	
+    margin:10px 0;
+    }
+
+
+
+    
+    a{
+        text-decoration:none;  /*romove underline of anchor text*/	
+        }
+        
+.anchor-text{
+color: rgb(2, 100, 111, 1);     
+font-weight: 600;
+}
+.anchor-text:hover{
+    color:#4AAF52;
+    text-decoration: underline;
+    -webkit-transition: all 0.2s ease-in-out 0.2s;
+       -moz-transition: all 0.2s ease-in-out  0.2s;
+       -ms-transition: all 0.2s ease-in-out  0.2s;
+       -o-transition: all 0.2s ease-in-out  0.2s;
+       transition: all 0.2s ease-in-out  0.2s;		
+   }
+    
+}
 
 /* background-color for sections*/
 .light-gray{
@@ -346,7 +383,7 @@ font-size:70%;
     color:rgba (255,255,255,0.3);
            }
    
-   .services-icon-box:hover, .services-icon-box i:hover  {
+   .services-icon-box:hover, .services-icon-box i:hover, h4{
   /*  background-color: rgb(255, 255, 255, 0.7);*/
     -moz-transition: all 0.4s ease-in-out;
      -o-transition: all 0.4s ease-in-out;
@@ -492,7 +529,7 @@ text-align: center;
 
 #image-message i{
 font-size:170%;
-color:#4AAF52;;
+color:#4AAF52;
     }   
 
 #image-message i:hover{
@@ -509,3 +546,11 @@ background-color:#4AAF52;;
 border: 1px solid salmon;
         }   
            
+#image-message:hover{
+
+    -moz-transition: all 0.4s ease-in-out;
+-o-transition: all 0.4s ease-in-out;
+-ms-transition: all 0.4s ease-in-out;
+transition: all 0.4s ease-in-out;
+
+}
