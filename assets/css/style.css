@@ -442,12 +442,14 @@ justify-content:center; /*align span inside div*/
  font-size:70px;
     }
 
+    /*--- TESTS-------*/
 .section-test{
-    height: 120px;
+    height: 300px;
   width: auto;
 }
   
 
+/* end tests*/
 /*  --- progress-bar -- */
 
 .progress {
@@ -589,3 +591,17 @@ section#faq .one-third{
         } 
     
    
+
+        .clinic-gallery img{
+            clear: both;
+            line-height: 0;
+            column-count: 4;
+            column-gap: 0;
+            /* box-sizing: border-box; */
+                }
+        
+                .clinic-gallery img{  /* remove gaps between images */
+                    width: 40%;
+                   
+                }
+        
