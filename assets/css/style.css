@@ -589,19 +589,24 @@ section#faq .one-third{
      
         margin:0;
         } 
-    
-   
 
-        .clinic-gallery img{
-            clear: both;
-            line-height: 0;
-            column-count: 4;
-            column-gap: 0;
-            /* box-sizing: border-box; */
-                }
-        
-                .clinic-gallery img{  /* remove gaps between images */
-                    width: 40%;
-                   
-                }
-        
+        /* CLINIC Gallery*/
+    
+        .column {
+            float: left;
+            width: 23,5%;
+            padding: 5px;
+          }
+          
+          /* Clearfix (clear floats) */
+          .row::after {
+            content: "";
+           clear: both;
+            display: table;
+          }
+
+          .clinic-gallery img{
+         width: 100%;
+          }
+
+    
