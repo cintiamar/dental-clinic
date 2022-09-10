@@ -354,7 +354,15 @@ nav#menu{
                 color:#fff;
        }
        
+/*hover states for each child, either explicitly or with * selector*/
+       .btn-header *:hover{
 
+        -moz-transition: all 0.4s ease-in-out;
+        -o-transition: all 0.4s ease-in-out;
+        -ms-transition: all 0.4s ease-in-out;
+        transition: all 0.4s ease-in-out;
+       
+       }
        .btn-header ul li a:hover{
         background-color: #fff;
         
