@@ -337,9 +337,7 @@ nav#menu{
       
         .btn-header ul li a{
         background-color:#02646E;
-        background-color:rgba (2,100,110,0.7);
-        /*border:2px solid ;*/
-        /*border-radius:40px;*/
+        background-color:rgba (2,100,110,0.7);    
         border-radius:15px;
         display:inline-block; /*  display: inline-block logo pode ter um padding */
         padding:0.7em 1.5em;	
@@ -355,7 +353,16 @@ nav#menu{
     .btn-header span{
                 color:#fff;
        }
+       
 
+       .btn-header ul li a:hover{
+        background-color: #fff;
+        
+       }
+
+       .btn-header i:hover, .btn-header span:hover{
+        color:#02646E;
+       }
     /* --- END btn-hero ---*/
 
 
