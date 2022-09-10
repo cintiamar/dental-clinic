@@ -238,7 +238,7 @@ background-color: rgb(231, 234,244, 0.7);
 header#main{
     height: 4em;
    /* max-height: 70px;*/
-    background-color: #4AAF52;
+  /*  background-color: #02646E;*/
     padding-bottom:15px;
   /*  position: fixed; */
     top: 0px;
@@ -305,11 +305,7 @@ nav#menu{
       background:url('../images/hero-image-dentist-600x1200-1.png') no-repeat center center;        
       /* background-image:linear-gradient(to bottom, rgba(2, 0, 36, 0.2), rgba(2, 100, 111, 0.43)),url('../images/hero-image-dentist-600x1200-1.png')!important; */
      
-     /*animates zoom effect on loading page*/
-      animation-name: hero-zoom;
-      animation-duration: 5s;
-      animation-fill-mode: forwards;
-      background-position:70% center;
+   
 
 }
 
