@@ -20,7 +20,7 @@ main{
     
     }
 
-
+/* If we can add margin to span element we should add display:block or display:inline-block;.*/
 
 /*----- notes end ---*/
 
@@ -46,10 +46,9 @@ color:#3a3a3a;
   section{       border:1px solid #f0f;     }
  
   section .innerbox, footer .innerbox {
- padding:30px 1%;    /* oben/unten, links/rechts  
+  padding:30px 1%;    /* oben/unten, links/rechts */   
  /* padding:16px 1%  30px;           /*   top, right_left,  */
   border:1px solid orangered; 
-
   } 
 
   .section-inner{
@@ -96,29 +95,41 @@ color:#3a3a3a;
 
 /* heading and logo*/
 
-#logo-name{
-    float:left;
-    font-size:130%;  
+
+.div-logo{
+ /*  display: block;*/
+    width:25%;
+    line-height: 23px;
+   /* margin-bottom: 50px;*/
+    float:left;	
+    margin-right:1%;
+    clear:both;
+    border:1px solid blueviolet;
+
 }
 
-    a.logo img{
 
-        max-width:40px;
-        /*opacity:0.65; */
-        position:absolute;
-        top:0;
-        left:0;	
-        /*z-index:9999; /* z-index + position: fixed deixa essa imagen ribbon fixa  enquanto scroll para baixo  */
-        margin-top:0;
-        display:inline-block;
-        margin-top:10px;
-        float:left;
-        margin-left:120px;  /*margin right no menu2 = 15px tambem!*/
-    
-    }
+/* class applied direct to img with automatic center*/
+.logo-image-centered{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;   
+    max-width: 40px;
+}
 
 
+#logo-name{
+margin-top: 0px;
 
+}
+#logo-name h1{
+   /* float:left;*/
+    font-size:130%; 
+    text-align: center;
+  
+}
+
+   
 
 
 
@@ -226,18 +237,21 @@ background-color: rgb(231, 234,244, 0.7);
 
 header#main{
     height: 4em;
+   /* max-height: 70px;*/
+    background-color: #4AAF52;
+    padding-bottom:15px;
   /*  position: fixed; */
     top: 0px;
-    max-height: 70px;
+  
     overflow: hidden;
     z-index: 999;
     width: 100%;
-    padding-top: 17px;
+    /*padding-top: 17px;*/
     /* background: none; */  /* nao tem nenhum logo nao tem pq ter esse comando ativo*/
      /*opacity: 0; */
     -webkit-transition: all 0.3s;
     transition: all 0.3s;  
-    padding-bottom: 6px;
+  
   
 }
 
@@ -288,8 +302,9 @@ nav#menu{
     #hero-image{
         height:600px ; 
         width: 100%;
-      /*  background:url('../images/hero-image-dentist-600x1200-1.png') no-repeat center center;  */       background-image:linear-gradient(to bottom, rgba(2, 0, 36, 0.2), rgba(2, 100, 111, 0.43)),url('../images/hero-image-dentist-600x1200-1.png')!important;
-       /* background:url('../images/hero-image-runners.webp') no-repeat center center; */
+      background:url('../images/hero-image-dentist-600x1200-1.png') no-repeat center center;        
+      /* background-image:linear-gradient(to bottom, rgba(2, 0, 36, 0.2), rgba(2, 100, 111, 0.43)),url('../images/hero-image-dentist-600x1200-1.png')!important; */
+     
      /*animates zoom effect on loading page*/
       animation-name: hero-zoom;
       animation-duration: 5s;
@@ -322,10 +337,24 @@ nav#menu{
 
 /* --- section-1   welcome -----*/
 
+section#welcome .innerbox{
+padding: 0 0;
+/* margin:0 49px; */
+/*margin-left:50px;*/
+/*margin-right: 0px!important; */
+}
+  
+.container {     
+    width: 100%;
+    padding:20px 0;
+    display: block;  
+  
+                 }
+
 #welcome-1{
     background-color: rgb(2, 100, 111, 0.7);   
     color:#fff;
-    padding-left: 7px;
+    
   
 }
 
@@ -338,42 +367,29 @@ nav#menu{
     font-weight: 500; 
     }
 
-    #message{
-    color: rgb(74, 175, 82, 0.7);
-    font-family: roboto, sans-serif;
-    font-weight: 500;
-   /* padding-bottom: 10px;
-    padding-top: 40px;  */
+#message{
+color: rgb(74, 175, 82, 0.7);
+font-family: roboto, sans-serif;
+font-weight: 500; 
     }
-  
-    .container {
-       /* width: 20em;*/
-        margin-left: auto;
-        margin-right: auto;
-        width: 100%;
-            }
 
-    #welcome .innerbox{
-        padding:16px 0 0;   
-            /*   top, right_left,  */ 
+    div#welcome-1.container{
+    margin-left: 0!important;
+    margin-right: 0;
+
+
     }
-/*#welcome-1,#message{
-display:block;
-width: 100%;
-margin:auto;
 
-} */
+           
 
 
-    
 
 
 /* services and icons*/
     section#services{
       /*  height: auto;*/
       /*  padding-top: 10px;
-        padding-left: 10px;  */
-        
+        padding-left: 10px;  */    
      
       
     }
