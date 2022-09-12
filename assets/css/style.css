@@ -437,6 +437,27 @@ font-weight: 500;
 
 
 /* -- ---- services +svg.mini -----*/
+
+	
+    .flex-container{
+        display: flex;  
+    justify-content:center; /*align span inside div*/
+    }
+
+    div#services-box.flex-container{
+    border:2px solid blue!important;
+    }
+
+    div#services-box.flex-container div{
+           border:2px solid greenyellow;
+    }
+
+
+
+
+
+
+
     .services-svg-box{
     width: 150px;
     height: 150px; 
