@@ -199,7 +199,6 @@ font-weight: 600;
 /* background-color for sections*/
 .light-gray{
 background-color: rgb(231, 234,244, 1);
-
 }
 
 
@@ -208,6 +207,10 @@ background-color: rgb(231, 234,244, 1);
  background-color: rgb(250, 252,252, 0.7); /*#fafcfc*/
     }
     
+    .dark-gray{
+        background:#737373;
+        background:rgba(115,115,115,1);	
+        }
 
     /*% columns*/
 
@@ -392,28 +395,38 @@ padding: 0 0;
     width: 100%;
     padding:20px 0;
     display: block;  
+    text-align: center;
   
                  }
 
 #welcome-1{
     background-color: rgb(2, 100, 111, 0.7);   
     color:#fff;   
+    text-align: center;
+ 
   
 }
 
-#welcome-1 h2, #welcome-1 p{
-   color:#fff;
- 
-    }
+
 
 #welcome-1 span{
     font-weight: 500; 
     }
 
-#message{
-/*color: rgb(74, 175, 82, 0.7);*/
-color: rgb(2, 100, 111, 1);
-color:#02646E;
+
+    #welcome-1 h2, #welcome-1 p{
+        color:#fff;
+     
+         }
+
+
+#message span{
+color: rgb(74, 175, 82, 1);
+/*color: rgb(2, 100, 111, 1);
+color:#02646E; */
+font-weight: 400;
+
+}
 
 
 font-family: roboto, sans-serif;
@@ -721,6 +734,7 @@ section#reviews .one-third{
     border: 1px solid aqua;
     height: 100px;
     } 
+
 
     /* END-- section#reviews--- */
 
