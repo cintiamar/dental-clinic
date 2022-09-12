@@ -436,109 +436,89 @@ font-weight: 500;
 
 
 
-/* services and icons*/
+/* -- ---- services +svg.mini -----*/
     section#services{
-      /*  height: auto;*/
-      /*  padding-top: 10px;
-        padding-left: 10px;  */    
+   
      
       
     }
 
-    div#services-box.flex-container{
-    border:2px solid blue!important;
-    }
-
-    div#services-box.flex-container div{
-           border:2px solid greenyellow;
-    }
-
-     
-    .services-icon-box{
-        width: 150px;
-        height: 150px; 
-      background-color: rgb(2, 100, 111, 0.7);  
-        float:left;
-        margin-right: 50px; 
-        border-radius: 50%;
-        text-align: center;
-        color:#fff;      
-        
-        position: relative;  /* needed because the child ul.services-list.center is flex, position absoltute*/
-    }   
-   
-
-    .services-icon-box i{
-font-size:50%;
-               }
-  
-.services-icon-box:hover {
-    background-color: rgb(2, 100, 111, 0.5);  
-           }
-   
-   .services-icon-box i:hover{
-    color:	#fff;	
-    color:rgba (255,255,255,0.3);
-           }
-   
-   .services-icon-box:hover, .services-icon-box i:hover, h4{
-  /*  background-color: rgb(255, 255, 255, 0.7);*/
-    -moz-transition: all 0.4s ease-in-out;
-     -o-transition: all 0.4s ease-in-out;
-     -ms-transition: all 0.4s ease-in-out;
-     transition: all 0.4s ease-in-out;
-           } 
-           
-
-        .services-icon-box h4:hover{
-            color:	#02646E;	
-            color:rgba (2,100,110,0.7);
-        
-            } 
-  
- .services-icon-box h4{
-color:#fff;
-font-weight: 400;
-font-size:105% ;
-letter-spacing: 1px;
-
+    .svg-size{              /* define size ICON-SVG  class aplied direct to <img>*/
+        height: 70px;
+        width: 70px;          
       }
 
-ul.services-list{
-    list-style-type:none;  /*eliminate bullets from ul */
-    
-  /*  top:50%; */
-   /* transform:translate(-50%,-50%);*/
-    /*transform:translate(0,-50%); /* only  axis Y !!  */
-    /* transform:translateY(-50%);  */
-   /* transform:translateY(30%);*/
-}
 
-/*  ------ div with .center position: absolute -----*/
-/* --listed parents below needed position;relative --*/
-.center {       /* I am vertically and horizontally centered*/
-    margin: 0!important;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    -ms-transform: translate(-50%, -50%);
-    transform: translate(-50%, -50%);
-  }
+      div.services-svg-box{
+        position:relative;
+        }
+        
+        
+        .services-svg-box  img{
+         /* width:80%;*/
+          position: absolute;
+          top: 30%;   /*  original: top 50% adjustes que tiram do alinhamento automatico*/
+          left: 50%;
+          transform: translate(-50%, -50%);
+          }
+        
+        
+        
+        .services-svg-box  h4{
+          position: absolute;
+          top: 50%;
+          left: 50%;
+          transform: translate(-50%, -50%);
+           color:#fff;
+           font-weight: 400;
+           font-size:105% ;
+          letter-spacing: 1px;
+          }
+          
+            
+          .services-svg-box h4, .services-svg-box:nth-child(3n) h4{
+          top: 72%;
+        
+          }
+          
+          /*---- hover ----*/
+             
+        .services-svg-box:hover{
+            background-color: rgb(2, 100, 111, 0.93);  
+                   }
+           
+           .services-svg-box img:hover{
+            color:	#fff;	
+            color:rgba (255,255,255,0.3);
+                   }
+          
+           
+           .services-svg-box:hover, .services-svg-box img:hover{
+              -moz-transition: all 0.4s ease-in-out;
+             -o-transition: all 0.4s ease-in-out;
+             -ms-transition: all 0.4s ease-in-out;
+             transition: all 0.4s ease-in-out;
+                   } 
+                   
+        
+               /*services-svg-box h4:hover{
+                    color:	#02646E;	
+                    color:rgba (2,100,110,0.7);
+                
+                    }  */
+        
+        
+        /*---end of hover --*/
 
-/* --listed parents b needed position;relative --*/
-/*  --END div with .center position: absolute -----*/
-/* div#....              */
+       /* -- -End services +svg.mini -----*/
 
 
-.flex-container{
-  display: flex;  
-justify-content:center; /*align span inside div*/
-}
 
-.web-icons { 
- color:#fff;
- font-size:70px;
-    }
+
+
+
+
+
 
     /*--- TESTS-------*/
 .section-test{
