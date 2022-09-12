@@ -703,3 +703,69 @@ section#faq .one-third{
           width: 100%;
 
           }
+
+
+
+        /*  --section smiles  -----*/
+
+        .container-smiles{
+            position:relative;		
+            }
+            
+            .container-smiles h3{
+            position:absolute;
+            left:50%;
+            top:50%;
+            transform:translate(-50%,-50%); 
+            color:#fff;		
+            margin:0;
+            font-size:3em;
+            z-index:1;   /*se nao usar o z-index o texto  vai ficar meio entre da imagen*/
+            letter-spacing:3px;
+            text-transform:capitalize;  /*catilize: erste Bustabe immer groß, lowercase, uppercase, capitn*/
+            }
+            
+            
+            
+            
+            
+            ul.gallery-smiles{
+            list-style-type:none; 
+            overflow:hidden;
+            }
+            
+            ul.gallery-smiles li{
+            background-color:#000;
+            line-height:0;
+            /*Bild-Abstand unten zu Block-Element in HTML 5 beseitigen (REMOVE)*/
+            width:16.666666%;
+            float:left;
+            margin:0;
+            }
+            
+            
+            ul.gallery-smiles li img{
+            width:100%;
+            opacity:0.5;  /* Opacity 50% (Opacity aqui nada relacinado com IMG SOMENTE COR::rgb, e aparece parte da cor do background da galeria no caso preto background-color:#000 unten zu Block-Element in HTML 5 beseitigen (REMOVE)*/
+            webkit-transition: all 0.5s ease-in-out;
+            -moz-transition: all 0.5s ease-in-out;
+             -ms-transition: all 0.5s ease-in-out;
+            -o-transition: all 0.5s ease-in-out;
+            transition: all 0.5s ease-in-out ;
+            
+            -webkit-filter: grayscale(1);
+            filter: grayscale(1);  /* efect Black and white*/
+                
+            }
+            
+            ul.gallery-smiles li img:hover{
+            opacity:1;  
+            
+             -webkit-filter: grayscale(0);
+            filter: grayscale(0);  /* efect Black and white*/
+            }
+
+
+
+
+        /*  --END  section smiles  -----*/
