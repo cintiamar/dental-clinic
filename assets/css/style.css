@@ -437,11 +437,18 @@ font-weight: 500;
 
 
 /* -- ---- services +svg.mini -----*/
-    section#services{
-   
-     
-      
-    }
+    .services-svg-box{
+    width: 150px;
+    height: 150px; 
+    background-color: rgb(2, 100, 111, 0.7); 
+    float:left;
+    margin-right: 50px; 
+    border-radius: 50%;
+    text-align: center;
+    color:#fff;    
+    position: relative;  /* needed because the child ul.services-list.center is flex, position absoltute*/
+    }   
+
 
     .svg-size{              /* define size ICON-SVG  class aplied direct to <img>*/
         height: 70px;
