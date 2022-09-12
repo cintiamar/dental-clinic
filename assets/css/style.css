@@ -198,12 +198,14 @@ font-weight: 600;
 
 /* background-color for sections*/
 .light-gray{
-background-color: rgb(231, 234,244, 0.7);
+background-color: rgb(231, 234,244, 1);
+
 }
 
 
 .light-blue{
-    background-color: rgb(91, 155,162, 0.08);
+   /* background-color: rgb(91, 155,162, 0.03);*/
+ background-color: rgb(250, 252,252, 0.7); /*#fafcfc*/
     }
     
 
@@ -303,7 +305,7 @@ nav#menu{
     #hero-image{
         height:600px ; 
         width: 100%;
-      background:url('../images/hero-image-dentist-600x1200-1.png') no-repeat center center;        
+      background:url('../images/hero-image-dentist-1600x1200-4.png') no-repeat center center;        
       
 }
 
@@ -409,7 +411,11 @@ padding: 0 0;
     }
 
 #message{
-color: rgb(74, 175, 82, 0.7);
+/*color: rgb(74, 175, 82, 0.7);*/
+color: rgb(2, 100, 111, 1);
+color:#02646E;
+
+
 font-family: roboto, sans-serif;
 font-weight: 500; 
     }
@@ -708,6 +714,26 @@ section#faq .one-third{
 
         /*  --section smiles  -----*/
 
+
+        .heading-text {
+            margin-bottom: 2rem;
+            font-size: 2rem;
+          }
+          
+          .heading-text span {
+            font-weight: 100;
+          }
+
+          #heading-span-2 {
+            color:#02646F;
+          }
+          
+
+         /* Adjancent Sibling combinador funcionou somente com cor red, blue com cor# hexa nao, usei span#*/
+         /* span:first-of-type + span {
+            color: red;
+          }  */
+          
         .container-smiles{
             position:relative;		
             }
