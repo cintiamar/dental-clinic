@@ -246,7 +246,7 @@ header#main{
    /* max-height: 70px;*/
   /*  background-color: #02646E;*/
     padding-bottom:15px;
-  /*  position: fixed; */
+  /*  position: fixed; */  /*allows sticky header, but needs a dark background to be visible through scroll*/
     top: 0px;
   
     overflow: hidden;
@@ -300,6 +300,11 @@ nav#menu{
          
     }
 
+   #menu  a#active{
+    color:#02646E!important;   
+    font-weight: 500;
+
+    }
 
     
 
@@ -834,6 +839,11 @@ section#faq .one-third{
 
           }
 
+          .column img:hover{
+            -webkit-filter: grayscale(0.7);
+            filter: grayscale(0.7);  /* efect Black and white*/
+        }
+            
 
 
         /*  --section smiles  -----*/
@@ -919,3 +929,17 @@ section#faq .one-third{
 
 
         /*  --END  section smiles  -----*/
+
+        /* ----- footer -----*/
+        footer{
+            background-color:#fbfcfd;
+        }
+
+        footer > div{
+            width:28%;       
+            float:left;	                 
+            margin-right:2%;
+          border: 1px solid purple;
+            
+
+        }
