@@ -368,9 +368,21 @@ nav#menu{
             padding:0.7em 1.5em;            
             }
     
-        /*buttom colors type */
+      
+     
+       .btn-header i{
+         padding-right:12px;  
+         font-size:25px;
+         color:#fff;
+       }
+         
+    .btn-header span{
+                color:#fff;
+       }
 
-        .btn-header-blue ul li a{
+         /*buttom colors type */
+
+         .btn-header-blue ul li a{
             background-color:#02646E;
             background-color:rgba (2,100,110,0.7);           
                
@@ -383,21 +395,11 @@ nav#menu{
                    
                 }
     
-
-
-
-
-     
-       .btn-header i{
-         padding-right:12px;  
-         font-size:25px;
-         color:#fff;
-       }
-         
-    .btn-header span{
-                color:#fff;
-       }
+        /* end buttom colors type */
        
+
+        /*  ---btn hover ---*/
+
 /*hover states for each child, either explicitly or with * selector*/
 /*hove applies to span, i, a simultaneasly*/
      /*  .btn-header.btn-header-white *:hover{
@@ -417,6 +419,7 @@ nav#menu{
         background-color:#02646E;
         background-color:rgba (2,100,110,0.7);  
         transition: all 0.2s 0.1s ease-in-out;
+        border:none;
 
         
        }
@@ -637,22 +640,7 @@ font-weight: 500;
 
 
 
-       section#about a#button-about{
-        /* background:#f0f;*/
-        position:absolute;	
-        top:82%;
-        right:70%;
-        transform:translate(-50%,-50%);	
-     }
     
-
-
-
-
-
-
-
-
 
 
     /*--- TESTS-------*/
@@ -729,11 +717,19 @@ section#about div.two-thirds{
     margin-left: 0!important; /* to align <p> with h2 . it was taking margin from .two-thirds*/    
     }
 
-    
+/* section#about  img */
 #about .one-third img{
     width:100%;
     }
-    
+
+    #about .one-third img:hover{
+        -webkit-filter: grayscale(1);
+        filter: grayscale(1);  /* efect Black and white*/
+    }
+        
+
+
+/* #image-message  peroperties to span */
 #image-message{
     height: 80px;
 text-align: center;
@@ -767,7 +763,14 @@ transition: all 0.4s ease-in-out;
 
 }
 
-
+/* section#about buttom */
+section#about a#button-about{
+    /* background:#f0f;*/
+    position:absolute;	
+    top:82%;
+    right:70%;
+    transform:translate(-50%,-50%);	
+ }
 
 
 /* END-- section#about--- */
