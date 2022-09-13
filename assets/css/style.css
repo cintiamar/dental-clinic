@@ -323,6 +323,21 @@ nav#menu{
         
     }
 
+    /* ---- moto ------*/
+       span#moto{     
+     /*   font-family: oswald;  */
+        font-size:4.2em;
+        margin:0;	
+        position:absolute;
+        left:40%;
+        top:50%;
+        transform:translate(-50%,-50%);  	/* alinha imagem, block no ABSOLUTE MITTE   */
+        color:#fff;
+        text-align:center;
+        line-height:0.4em;
+        }
+        
+
     /* ------ btn --------*/
     /* --- btn-hero ---*/
     .btn-header{
