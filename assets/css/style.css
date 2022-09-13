@@ -326,7 +326,7 @@ nav#menu{
     /* ---- moto ------*/
        span#moto{     
      /*   font-family: oswald;  */
-        font-size:4.2em;
+        font-size:3.7em;
         margin:0;	
         position:absolute;
         left:40%;
@@ -780,18 +780,23 @@ section#about a#button-about{
 
 section#reviews .one-third{
     border: 1px solid aqua;
-    height: 100px;
+  
     } 
+
+    
+section#reviews .one-third{
+    width:32.8%;       
+    margin-right:0%;
+     padding:0 0.5%; /* determinas padding entre imagens, se aplicar diretamente na img ela move p fora do box!*/
+    }
+   
+        
 
 
     /* END-- section#reviews--- */
 
     
-section#reviews .one-third{
-    border: 1px solid aqua;
-    height: 100px;
-    } 
-    
+
 section#faq .one-third{
     border: 1px solid aqua;
     height: 100px;
