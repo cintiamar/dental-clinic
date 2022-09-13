@@ -329,7 +329,7 @@ nav#menu{
         /* background:#f0f;*/
         position:absolute;	
         top:90%;
-        left:50%;
+        left:40%;
         transform:translate(-50%,-50%);	
     
     
@@ -341,14 +341,37 @@ nav#menu{
     }
       
       
-        .btn-header ul li a{
-        background-color:#02646E;
-        background-color:rgba (2,100,110,0.7);    
-        border-radius:15px;
+        .btn-header ul li a{       
+        border-radius:50px;
         display:inline-block; /*  display: inline-block logo pode ter um padding */
-        padding:0.7em 1.5em;	
-            
+        padding:0.7em 1.5em;            
         }
+
+        .btn-header-1 ul li a{       
+            border-radius:15px;
+            display:inline-block; /*  display: inline-block logo pode ter um padding */
+            padding:0.7em 1.5em;            
+            }
+    
+        /*buttom colors type */
+
+        .btn-header-blue ul li a{
+            background-color:#02646E;
+            background-color:rgba (2,100,110,0.7);           
+               
+            }
+
+            .btn-header-white ul li a{
+                background-color:transparent;
+                border: 1px solid;     
+                border-color: rgba(255, 255, 255, .75);                
+                   
+                }
+    
+
+
+
+
      
        .btn-header i{
          padding-right:12px;  
@@ -361,22 +384,29 @@ nav#menu{
        }
        
 /*hover states for each child, either explicitly or with * selector*/
-       .btn-header *:hover{
+/*hove applies to span, i, a simultaneasly*/
+     /*  .btn-header.btn-header-white *:hover{
 
         -moz-transition: all 0.4s ease-in-out;
         -o-transition: all 0.4s ease-in-out;
         -ms-transition: all 0.4s ease-in-out;
-        transition: all 0.4s ease-in-out;
-       
-       }
+        transition: all 0.4s ease-in-out;       
+       }*/
+
+     /* .btn-header i:hover, .btn-header span:hover{
+        color:#02646E;
+       }*/
+
+
        .btn-header ul li a:hover{
-        background-color: #fff;
+        background-color:#02646E;
+        background-color:rgba (2,100,110,0.7);  
+        transition: all 0.2s 0.1s ease-in-out;
+
         
        }
 
-       .btn-header i:hover, .btn-header span:hover{
-        color:#02646E;
-       }
+    
     /* --- END btn-hero ---*/
 
 
