@@ -312,12 +312,14 @@ nav#menu{
 
     
 
-    /* hero*/
+    /* --------hero------------*/
+    
+    /* ---1 - hero home-----*/
 
     #hero-image{
         height:600px ; 
         width: 100%;
-      background:url('../images/hero-image-dentist-1600x1200-4.png') no-repeat center center;        
+      background:url('../images/hero/hero-image-dentist-1600x1200-4.png') no-repeat center center;        
       
 }
 
@@ -436,6 +438,14 @@ nav#menu{
     
     /* --- END btn-hero ---*/
 
+ /* ---2 - hero sub pages-----*/
+
+ #hero-image-treatments{
+    height:500px ; 
+    width: 100%;
+  background:url('../images/hero/hero-dentist-treatments-1200x500.png') no-repeat center center;        
+  
+}
 
 
 
@@ -957,14 +967,17 @@ section#faq .one-third{
         
         footer div  h4{
             text-transform:capitalize;   
+            font-weight:500;
            }
             
             footer ul li{
                 list-style-type:none!important;
                     }
+
             footer  span{
                 font-size:90%;
-                color:red;
+                color:#454545;
+                color:rgba(69, 69, 69, 1)
                     }
         
         
