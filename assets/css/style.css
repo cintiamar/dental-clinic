@@ -963,6 +963,7 @@ section#faq .one-third{
                 list-style-type:none!important;
                     }
             footer  span{
+                font-size:90%;
                 color:red;
                     }
         
@@ -975,7 +976,17 @@ section#faq .one-third{
             border: 1px solid purple;
             background-color:#fbfcfd;
                     }
-    
+
+            #footer-2 #diepold-dental ul li, #footer-2 #opening-hours ul li, #footer-2 #policies ul li {		
+            list-style-type:none!important;				
+                    }
+
+            #diepold-dental ul li:nth-child(2){		
+             margin-left:8%;	
+                        }
+                                    
+                            
+                        
     
     h1#logo-name{
        float:left;
