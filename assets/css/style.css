@@ -242,7 +242,7 @@ background-color: rgb(231, 234,244, 1);
 
 
 header#main{
-    height: 4em;
+    height: 6em;
    /* max-height: 70px;*/
   /*  background-color: #02646E;*/
     padding-bottom:15px;
@@ -728,8 +728,8 @@ section#about div.two-thirds{
     }
 
     #about .one-third img:hover{
-        -webkit-filter: grayscale(1);
-        filter: grayscale(1);  /* efect Black and white*/
+        -webkit-filter: grayscale(0.7);
+        filter: grayscale(0.7);  /* efect Black and white*/
     }
         
 
