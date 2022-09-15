@@ -1063,15 +1063,20 @@ section#faq .one-third{
 
 
         
-        /*------sub-page >> implants ------*/
-        /* section#about buttom */
-section#implants a.button{
-    /*background:#f0f; */
-    position:absolute;	
-    top:82%;
-    right:70%;
-    transform:translate(-50%,-50%);	
- }
+ /*------sub-page >> implants ------*/
+
+    /* section#about buttom */
+
+    section#implants a.button{
+        /*background:#f0f; */
+        position:absolute;	
+        top:82%;
+        left:0%;
+        transform:translate(-50%,-50%);	
+     }      
+     
+
+
 
  /* section#about  img */
 #implants .one-third img{
