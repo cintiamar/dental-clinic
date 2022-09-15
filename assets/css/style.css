@@ -316,13 +316,13 @@ header{
 		margin-left:13px;
 		font-size:110% ;
 		letter-spacing:0.5px;
+        font-weight:500;	
     }
 
     #menu a:hover{
         border-bottom:1px solid #4AAF52;
         color:#02646E!important;
-        color:rgb(2, 100, 110,1);        
-        font-weight:500;	
+        color:rgb(2, 100, 110,1);      
         -webkit-transition: all 0.2s ease-in-out;
          -moz-transition: all 0.2s ease-in-out;
          -o-transition: all 0.2s ease-in-out;
