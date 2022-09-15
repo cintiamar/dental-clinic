@@ -488,7 +488,10 @@ section#welcome > *{
     text-align:center;
      }
   
-
+     #welcome-1 p{
+        text-align:center;
+         }
+      
 
 
 .container {
