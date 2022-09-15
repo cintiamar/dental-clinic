@@ -460,29 +460,13 @@ header{
 
         /*  ---btn hover ---*/
 
-/*hover states for each child, either explicitly or with * selector*/
-/*hove applies to span, i, a simultaneasly*/
-     /*  .btn-header.btn-header-white *:hover{
-
-        -moz-transition: all 0.4s ease-in-out;
-        -o-transition: all 0.4s ease-in-out;
-        -ms-transition: all 0.4s ease-in-out;
-        transition: all 0.4s ease-in-out;       
-       }*/
-
-     /* .btn-header i:hover, .btn-header span:hover{
-        color:#02646E;
-       }*/
-
 
        .btn-header ul li a:hover{
         background-color:#02646E;
         background-color:rgba (2,100,110,0.7);  
         transition: all 0.2s 0.1s ease-in-out;
         border:none;
-
-        
-       }
+               }
 
     
     /* --- END btn-hero ---*/
@@ -791,10 +775,8 @@ background-color:#4AAF52;;
 }   
       
 #image-message > span:hover{     
-    color:#fff;;    
- 
-border: 1px solid salmon;
-        }   
+    color:#fff;   
+         }   
            
 #image-message:hover{
 
