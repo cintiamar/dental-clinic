@@ -320,7 +320,7 @@ header{
     }
 
     #menu a:hover{
-        border-bottom:1px solid #4AAF52;
+        border-bottom:1px solid;
         color:#02646E!important;
         color:rgb(2, 100, 110,1);      
         -webkit-transition: all 0.2s ease-in-out;
@@ -336,7 +336,30 @@ header{
 
     }
 
+     /* Book now */
     
+     #menu a.book-now:hover{      
+        color:#fff!important;
+        color:rgb(255, 255, 255,1);     	
+      		}
+	
+		a.book-now{
+		border-radius:50px;
+        display:inline-block; /*  display: inline-block logo pode ter um padding */
+		text-transform:uppercase;
+		font-weight:500;
+		padding:0.5em 0.8em;  
+		}
+
+		
+		a.book-now:hover{
+		color:#fff;
+		}
+
+        .book-now{
+        background-color: rgb(2, 100, 111, 0.7);          
+                               }
+        
 
     /* --------hero------------*/
     
