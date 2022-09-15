@@ -321,8 +321,7 @@ header{
     #menu a:hover{
         border-bottom:1px solid #4AAF52;
         color:#02646E!important;
-        color:rgb(2, 100, 110,1);
-        font-size:105%;
+        color:rgb(2, 100, 110,1);        
         font-weight:500;	
         -webkit-transition: all 0.2s ease-in-out;
          -moz-transition: all 0.2s ease-in-out;
