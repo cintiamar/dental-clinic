@@ -541,10 +541,6 @@ section#welcome > *{
 
 
 
-
-
-
-
     .services-svg-box{
     width: 150px;
     height: 150px; 
@@ -558,7 +554,7 @@ section#welcome > *{
     }   
 
 
-    .svg-size{              /* define size ICON-SVG  class aplied direct to <img>*/
+      .svg-size{              /* define size ICON-SVG  class aplied direct to <img>*/
         height: 70px;
         width: 70px;          
       }
@@ -568,15 +564,16 @@ section#welcome > *{
         position:relative;
         }
         
+
         
-        .services-svg-box  img{
-         /* width:80%;*/
-          position: absolute;
-          top: 30%;   /*  original: top 50% adjustes que tiram do alinhamento automatico*/
-          left: 50%;
-          transform: translate(-50%, -50%);
-          }
-        
+            .services-svg-box  img{
+            /* width:80%;*/
+            position: absolute;
+            top: 30%;   /*  original: top 50% adjustes que tiram do alinhamento automatico*/
+            left: 50%;
+            transform: translate(-50%, -50%);
+            }
+          
         
         
         .services-svg-box  h4{
