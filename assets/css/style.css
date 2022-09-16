@@ -541,6 +541,7 @@ section#welcome > *{
 .flex-container{
     display: flex;  
     justify-content:center; /*align span inside div*/
+    flex-direction: column; /* Responsive flow element in a colum one under one and not "colapded"*/
     }
 
     .wrap{ 
