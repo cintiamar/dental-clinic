@@ -536,10 +536,12 @@ section#welcome > *{
     }
 
     div#services-box.flex-container div{
-   /*        border:2px solid greenyellow;*/
+   /*   border:2px solid greenyellow;  */
     }
-
-
+    section#services h2{
+        padding-bottom:2px;
+    }
+    
 
     .services-svg-box{
     width: 150px;
