@@ -538,6 +538,7 @@ section#welcome > *{
     div#services-box.flex-container div{
    /*   border:2px solid greenyellow;  */
     }
+
     section#services h2{
         padding-bottom:2px;
     }
@@ -1064,4 +1065,22 @@ section#faq .one-third{
         -webkit-filter: grayscale(0.7);
         filter: grayscale(0.7);  /* efect Black and white*/
     }
-        
+    
+    
+    /* tablet screen  */
+@media only screen and (max-width: 992px) {
+
+}
+
+
+    /* mobile screen  */
+    @media only screen and (max-width: 768px) {
+
+    
+    }
+
+
+
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {...}
