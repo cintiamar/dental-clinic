@@ -379,11 +379,12 @@ header{
       
      #hero-outer{
         height:600px ; 
-        width: 100%;
-        overflow: hidden;     
-        position: relative;
-        
+        width:100%;
+        overflow:hidden;     
+        position:relative;
+     
     }
+
 
     /* ---- moto ------*/
        span#moto{     
@@ -397,7 +398,15 @@ header{
         color:#fff;
         text-align:center;
         line-height:0.4em;
+        white-space:nowrap;   /* white-space: nowrap */
         }
+        
+   /* white-space: nowrap */
+   /* 	Sequences of whitespace will collapse into a single whitespace. Text will never wrap to the next line. 
+   The text continues on the same line until a <br> tag is encountered
+   why? as I made responsive to mobile, span texts colapsed, < ver captura>
+   */
+
         
 
     /* ------ btn --------*/
@@ -525,14 +534,26 @@ section#welcome > *{
     font-weight: 400;
     }
 
-/* -- ---- services +svg.mini -----*/
 
-	
-    .flex-container{
-        display: flex;  
+
+
+/* flex-container   flex-wrap */
+.flex-container{
+    display: flex;  
     justify-content:center; /*align span inside div*/
     }
 
+    .wrap{ 
+        -webkit-flex-wrap: wrap;
+        flex-wrap: wrap;
+      }  
+
+
+
+/* -- ---- services +svg.mini -----*/
+
+	
+   
     div#services-box.flex-container{
   /*  border:2px solid blue!important; */
     }
