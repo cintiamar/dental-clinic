@@ -75,13 +75,14 @@ color:#3a3a3a;
   }
 
   .hr-style{
-   border: 1px solid #a3d6a7;
+    border: 1px solid; 
+	border-color: rgba(2,100,111,0.5);   
     width: 5%;  
-    border-width: 3px; 
+    border-width: 2px;
   }
 
   .hr-style:hover{
-    border: 3px solid #4AAF52; 
+    border-color: rgba(2,100,111,0.93);  
     -webkit-transition: all 0.2s ease-in-out 0.2s;
     -moz-transition: all 0.2s ease-in-out  0.2s;
     -ms-transition: all 0.2s ease-in-out  0.2s;
