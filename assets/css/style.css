@@ -691,69 +691,8 @@ section#welcome > *{
             -ms-transition: all 0.35s ease-in-out;
             transition: all 0.35s ease-in-out;
         }
-                     
+       
 
-
-
-
-    
-
-
-    /*--- TESTS-------*/
-.section-test{
-    height: 300px;
-  width: auto;
-}
-  
-
-/* end tests*/
-/*  --- progress-bar -- */
-
-.progress {
-    height: 4px;
-    margin-bottom: 20px;
-    overflow: hidden;
-    background-color:transparent;
-    border-radius: 0px;
-    
-}
-
-.progress-bar {
-    float: left;
-    width: 0;
-    height: 100%;
-    font-size: 12px;
-    line-height: 20px;
-    color: #fff;
-    text-align: center;
-    background-color: #4AAF52;
-    background-color:rgba(74, 175,82, 0.7);
-
-
-    -webkit-box-shadow: inset 0 -1px 0 rgba(74, 175, 82, .15);
-    box-shadow: inset 0 -1px 0 rgba(45, 45, 50, .15);
-    -webkit-transition: width .6s ease;
-    -o-transition: width .6s ease;
-    transition: width .6s ease;
-}
-
-div.progress{
-margin-top:0;
-
-}
-
-.progress-bar:hover{
-    background-color: #4AAF52;
-    background-color:rgba(74, 175,82, 1);
--moz-transition: all 0.4s ease-in-out;
--o-transition: all 0.4s ease-in-out;
--ms-transition: all 0.4s ease-in-out;
-transition: all 0.4s ease-in-out;
-
-}
-
-
-/*  ---END  progress-bar -- */
 
 .label{
 font-size: 110%;
