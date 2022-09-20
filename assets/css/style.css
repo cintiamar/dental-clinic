@@ -128,7 +128,7 @@ margin-top: 0px;
 #logo-name h1{
    /* float:left;*/
     font-size:130%; 
-    
+    font-family: roboto, sans-serif; 
   
 }
 
@@ -141,7 +141,8 @@ margin-top: 0px;
 
 
 h1,h2,h3,h4{
-font-family: roboto, sans-serif;
+/* font-family: roboto, sans-serif; */
+font-family: Quicksand, sans-serif;
 letter-spacing:1px;
 /*color:#252525;*/
 color:#4B535E;
@@ -510,7 +511,10 @@ section#welcome > *{
         text-align:center;
          }
       
+        #welcome-1 h2{
+       font-family: roboto, sans-serif; 
 
+        }
 
 .container {
     width: 100%;
