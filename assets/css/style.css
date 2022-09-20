@@ -40,12 +40,12 @@ color:#3a3a3a;
     margin: 0 auto; 
     position: relative;  /* relative = como o Eltern Element*/
     padding:0 2%;
-    border:2px solid yellow;
+  /*  border:2px solid yellow; */
   }
 
 
   /* ---- section configuration -----*/
-  section{       border:1px solid #f0f;     }
+  /* section{       border:1px solid #f0f;     }  */
  
   section .innerbox, footer .innerbox {
   padding:30px 1%;    /* oben/unten, links/rechts */   
@@ -761,7 +761,7 @@ section#about a#button-about{
     /* background:#f0f;*/
     position:absolute;	
     top:82%;
-    right:70%;
+    right:82%; *
     transform:translate(-50%,-50%);	
  }
 
@@ -1038,15 +1038,26 @@ section#faq .one-third{
     
     /* tablet screen  */
 @media only screen and (max-width: 992px) {
-
+ 
+  .innerbox, .innerbox-section{
+	border:1px solid yellow;  
+	} 
+  
 }
 
 
     /* mobile screen  */
     @media only screen and (max-width: 768px) {
+       
+  .innerbox, .innerbox-section{
+	border:1px solid greenyellow;  
+	} 
+  
+       
+       
+       
         .flex-container{
-            
-            flex-direction: column; /* Responsive flow element in a colum one under one and not "colased"*/
+                       flex-direction: column; /* Responsive flow element in a colum one under one and not "colased"*/
             }
         
     
