@@ -1319,8 +1319,8 @@ section#faq .one-third{
           font-size:2em;
           font-weight:600 ;
             top:75%;      
-          z-index:5;
-        }
+          position:absolute;
+         }
   
                     
         .flex-container{
