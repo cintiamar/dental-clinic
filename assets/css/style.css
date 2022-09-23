@@ -303,7 +303,7 @@ header .innerbox{
 header{
     top: 0px;
      overflow: hidden;
-    z-index: 999;
+   /*  z-index: 999; */
     width: 100%;
     -webkit-transition: all 0.3s;
     transition: all 0.3s;  
@@ -540,11 +540,10 @@ header{
         }
         .dropdown {
           position:absolute;
-          width:230px;
-          /* background:#1a1a1a; */
+          width:230px;         
           text-align:left;
           display:none;
-          z-index: 999;   
+          z-index:1 !important;   
           background:#fff;
         }
         .dropdown li {
@@ -611,6 +610,7 @@ header{
 /* --- section-1   welcome -----*/
 #welcome-1{
     background-color: rgb(2, 100, 111, 0.7);  
+    position:relative;
        }
   
 
@@ -619,7 +619,7 @@ section#welcome > *{
      }
   
      #welcome-1 p{
-        text-align:center;
+        text-align:center;      
          }
       
         #welcome-1 h2{
@@ -1322,13 +1322,20 @@ section#faq .one-third{
           position:absolute;
          }
   
-                    
+         #welcome-1 p{
+         margin-left:25px!important;   
+         margin-right:25px;  
+           }
+                   
+
+
         .flex-container{
                        flex-direction: column; /* Responsive flow element in a colum one under one and not "colased"*/
             }
 
-            .heading-text {        
-              font-size: 1.7rem;
+            h2.heading-text {        
+              font-size: 1.5rem;
+              text-align: center;
             }
           
         hr.hr-style{
