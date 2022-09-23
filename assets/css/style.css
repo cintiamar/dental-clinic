@@ -485,6 +485,116 @@ header{
     
     /* --- END btn-hero ---*/
 
+      /*-----Drop down Menu-----*/	
+		
+        nav {
+          text-align:right;
+          margin-top:30px;   /* define height to nav in order to have space for the logo img*/
+        }
+
+
+        #main-menu.main-menu *{
+        color:#02646F;
+        }
+
+
+        .main-menu {
+          display:block;
+          position:relative;
+          background:#fff;
+        }
+        .container-menu {
+          width:80%;
+          margin:0 auto;
+        }
+        .main-menu:before,.main-menu:after{
+          display: table;
+          line-height: 0;
+          content: "";
+        }
+        .core-menu {
+          text-align:center;
+          font:normal normal normal 1em/1 Roboto, sans-serif;
+          overflow:hidden;
+        }
+        .core-menu li {
+          list-style:none;
+          display:inline-block;
+          cursor:pointer;
+        }
+        .core-menu li a {
+          display:inline-block;
+          padding:1em;  
+        }
+
+        .core-menu li a:hover {
+          background:#02646F;
+          color:#f2f2f2!important;
+        }
+        li span.toggle {
+          padding-left:1em;
+        }
+        .toggle:before {
+          content:"\f107";
+          font:normal normal normal 16px/1 FontAwesome;
+        }
+        .dropdown {
+          position:absolute;
+          width:230px;
+          /* background:#1a1a1a; */
+          text-align:left;
+          display:none;
+          z-index: 1;   
+          background:#fff;
+        }
+        .dropdown li {
+          display:block;
+          }
+        .dropdown li a {
+          display:block;
+          color:#02646F!important; 
+        }
+
+        .dropdown2 {
+          position:absolute;
+          width:230px;
+        background:#fff;
+          text-align:left;
+          display:none;
+          right:-100%;
+          top:0;
+        }
+        .dropdown2 li {
+          display:block;
+          }
+        .dropdown2 li a {
+          display:block;
+        }
+        li span.toggle2 {
+          position:absolute;
+          right:0;
+          margin-right:20px;
+        }
+        .toggle2:before {
+          content:"\f105";
+          font:normal normal normal 16px/1 FontAwesome;
+        }
+        .hamburger-menu {
+          padding:1em;
+          display:none;
+          font:normal normal normal 16px/1 Roboto;
+          text-transform:uppercase;
+          background:#2d2d2d;
+        }
+
+
+/*- end drop down menu -*/
+         
+
+
+
+
+
  /* ---2 - hero sub pages-----*/
 
  #hero-image-implant{
