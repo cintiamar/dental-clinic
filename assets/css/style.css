@@ -770,38 +770,38 @@ section#welcome > *{
        /* -- -section#about-----*/
 
        /* button  */
-       .button{
-        /*position:abosolute;*/
-            -moz-appearance: none;
-            -webkit-appearance: none;
-            -o-appearance: none;
-            -ms-appearance: none;
-            appearance: none;
-            background: none;
-            border-radius: none;
-            /*border: 2px solid;*/
-            background-color:#02646E;
-            background-color:rgba (2,100,110,0.7);
-            /*border-color: #82b440;*/
-            border-radius:15px;
-            color: #82b440;
-            cursor: pointer;
-            display: inline-block;
-            /*padding: 0.90em 1.2em;*/
-                padding:0.7em 1.5em;	
-            letter-spacing: 1px;
-            text-align: center;
-            text-decoration: none;
-            /*text-transform: uppercase;*/
-              text-transform: capitalize;
-            font-size: 1em; /* size icon + text*/
-            -moz-transition: all 0.35s ease-in-out;
-            -webkit-transition: all 0.35s ease-in-out;
-            -o-transition: all 0.35s ease-in-out;
-            -ms-transition: all 0.35s ease-in-out;
-            transition: all 0.35s ease-in-out;
-        }
-       
+
+            /* button  */
+			.button{
+        font-family: roboto;
+           -moz-appearance: none;
+           -webkit-appearance: none;
+           -o-appearance: none;
+           -ms-appearance: none;
+           appearance: none;
+           background: none;
+           border-radius: none;           
+           background-color:#02646E;
+           background-color:rgba (2,100,110,1);  
+            color:#fff;			
+           border-radius:50px;     
+           padding:0.7em 1.7em;	
+           letter-spacing: 1px;
+           text-align: center;
+           text-decoration: none;        
+           font-size: 1em; /* size icon + text*/
+           -moz-transition: all 0.35s ease-in-out;
+           -webkit-transition: all 0.35s ease-in-out;
+           -o-transition: all 0.35s ease-in-out;
+           -ms-transition: all 0.35s ease-in-out;
+           transition: all 0.35s ease-in-out;
+       }
+                    
+     .button:hover{
+     opacity:0.82;
+     font-weight:400;					
+     }
+
 
 
 .label{
@@ -842,7 +842,7 @@ text-align: center;
 
 #image-message i{
 font-size:170%;
-color:#4AAF52;
+color: rgb(2, 100, 111, 0.7); 
     }   
 
 #image-message i:hover{
@@ -858,7 +858,7 @@ background-color:#4AAF52;;
          }   
            
 #image-message:hover{
-
+  background-color: rgb(2, 100, 111, 0.93);
     -moz-transition: all 0.4s ease-in-out;
 -o-transition: all 0.4s ease-in-out;
 -ms-transition: all 0.4s ease-in-out;
