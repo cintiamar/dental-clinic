@@ -785,7 +785,7 @@ section#welcome > *{
            background-color:rgba (2,100,110,1);  
             color:#fff;			
            border-radius:50px;     
-           padding:0.7em 1.7em;	
+          /* padding:0.7em 1.7em;	*/
            letter-spacing: 1px;
            text-align: center;
            text-decoration: none;        
@@ -802,6 +802,13 @@ section#welcome > *{
      font-weight:400;					
      }
 
+     .button-m{
+      padding:0.7em 1.7em;	
+     }
+
+     .button-p{
+      padding:0.7em 1.2em;	
+     }
 
 
 .label{
@@ -867,14 +874,18 @@ transition: all 0.4s ease-in-out;
 }
 
 /* section#about buttom */
-section#about a#button-about{
+section#about a#button-about.button-m{
     /* background:#f0f;*/
     position:absolute;	
     top:82%;
-    right:82%; 
+    right:77%; 
+    margin-top: 12px;
     transform:translate(-50%,-50%);	
- }
+     }
 
+     section#about a#button-about.button-p{
+      display:none;
+     }
 
 /* END-- section#about--- */
 
@@ -1080,25 +1091,27 @@ section#faq .one-third{
         
         
         footer a.logo-image img{  
-            width:35%;              /* properties with automatic center*/
+          /*  width:35%;      */        /* properties with automatic center*/
             display: inline-block;   
             margin-left:0;
             margin-right:7px;   
-           max-width: 20px; /* image size*/
-           float:left;
+            max-width: 20px; /* image size*/
+            float:left;
           }
-        
+
+          
+    
         span#logo-name-footer{
            float:left;
             font-size:90%; 
             color:#5B9BA2;
            }
         
-            
-         #diepold-dental ul{
-            margin-top:25px;
-              }
-         
+           #diepold-dental .flex-container{
+           
+
+           }
+        
          
             
               #opening-hours ul, #policies ul{
@@ -1267,7 +1280,13 @@ section#faq .one-third{
   /*- end drop down menu -*/
 
     /* Extra large devices (large laptops and desktops, 1200px and up) */
-    @media only screen and (min-width: 1200px) {...}
+    @media only screen and (min-width: 1200px) {
+      .innerbox{
+        border:1px solid blueviolet;  
+        } 
+
+
+    }
 
         /* tablet screen  */
     @media only screen and (max-width: 992px) {
@@ -1348,18 +1367,22 @@ section#faq .one-third{
              display:none;
                 }
 
+                section#about div.two-thirds{
+                margin-bottom: 30px;
+                padding-bottom: 40px;
+                }
 
                 /* section#about buttom */
-
                 
-              section#about a#button-about.button{
-                background:#f0f; 
-                padding: 0.95em 1.1em!important;
-                position:absolute;
-                top:72%;
-                left:42%!important; 
-                transform:translate(-50%,-50%);	
-              }
+                section#about a#button-about.button-p{
+                  display:block;
+                 }
+            
+                
+                 section#about a#button-about.button-m{
+                  display:none;
+                 }
+            
 
 
                 /* section reviews */
@@ -1369,8 +1392,48 @@ section#faq .one-third{
             text-align:center!important; /* alinha image no centro de um div que é block!*/  
         }  
     
-                      
+              /* footer */    
+              
+              
+              #column-footer.flex-container{
+                text-align: center;
+             }
+       
+             #diepold-dental #logo-image img{
+              font-size: 200%;
+              
+                }
+
+                span#logo-name-footer{
+                  font-size:107%;
+                   font-weight:500!important;
+                 border: 1px solid  blue;
+             }
+           
     
+              #column-footer.flex-container #diepold-dental, #opening-hours, #policies{
+                width:95%;       
+                float:left;	                 
+                margin-right:2%;
+                border: 1px solid blue!important;
+                background-color:#fbfcfd;
+                }
+
+
+                           
+                footer #diepold-dental ul li span,
+                footer #opening-hours ul li span,
+                footer #policies ul li span{
+                font-size:112%;        
+                          }
+
+                footer #diepold-dental ul,
+                footer #opening-hours ul,
+                footer #policies ul{
+                margin-bottom:15px;   
+                          }
+
+
     }
 
 
