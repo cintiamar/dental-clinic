@@ -1282,9 +1282,12 @@ section#faq .one-third{
     /* Extra large devices (large laptops and desktops, 1200px and up) */
     @media only screen and (min-width: 1200px) {
       .innerbox{
-        border:1px solid blueviolet;  
+        border:1px solid rgb(43, 226, 58);  
         } 
 
+        #welcome-1 h2{
+          font-size:120%; 
+              }
 
     }
 
@@ -1348,6 +1351,11 @@ section#faq .one-third{
         }
 
             /* smiles */
+
+            ul.gallery-smiles li:nth-of-type(even){
+
+              display:none!important;
+              }
 
        .hide{
         display:none;
