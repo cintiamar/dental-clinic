@@ -8,6 +8,10 @@ padding:0;
 /*box-sizing: border-box;*/
 }
 
+ul *{
+
+  list-style-type:none; 
+}
 
 /* notes*/
 
@@ -663,7 +667,7 @@ section#welcome > *{
 /* flex-container   flex-wrap */
   .flex-container{
   display: flex;  
-  align-items: center; /* center itens in flex-container*/
+   /*align-items: center; /* center itens in flex-container*/
   justify-content:center; /*align span inside div*/  
     }
 
@@ -679,7 +683,8 @@ section#welcome > *{
 	
    
     div#services-box.flex-container{
-  /*  border:2px solid blue!important; */
+   /*  border:2px solid blue!important; */
+    align-items: center; 
     }
 
     div#services-box.flex-container div{
@@ -896,8 +901,9 @@ section#about a#button-about.button-m{
     /* background:#f0f;*/
     position:absolute;	
     top:82%;
-    right:77%; 
+    right:76%; 
     margin-top: 12px;
+    
     transform:translate(-50%,-50%);	
      }
 
@@ -1471,7 +1477,8 @@ section.cta .button-m{
     @media only screen and (max-width: 768px) {
        
       .innerbox{
-        border:1px solid orangered; 
+        border:1px solid goldenrod; 
+        margin: 0 0!important; 
     }
   
           #hero-outer .btn-header.btn-header-white,  
@@ -1562,7 +1569,7 @@ section.cta .button-m{
           margin-bottom:15px;  
           }
             
-          #about .flex-container *{
+          #about .two-thirds, #about .one-third{
             /* border:2px solid pink; */
              width:99%;     	
              margin-right:0.2%;
@@ -1643,6 +1650,8 @@ section.cta .button-m{
 
             /*section reviews - google*/
 
+         
+
             #reviews .google-reviews-1{
               display:none;
               }
@@ -1651,6 +1660,11 @@ section.cta .button-m{
               width:100%;
               display:block;
                 }
+
+                #reviews .flex-container{
+                  align-itens:stretch;
+                }
+
                 
           
           
@@ -1667,7 +1681,7 @@ section.cta .button-m{
               }
              
               footer #diepold-dental ul li:first-child{
-              margin-top:28px;  
+              margin-top:18px;  
               border: 1px solid greenyellow;                           
               }
 
