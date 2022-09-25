@@ -1328,6 +1328,7 @@ section#faq .one-third{
          #welcome-1 p{
          margin-left:25px!important;   
          margin-right:25px;  
+         font-weight: 300;
            }
                    
 
@@ -1353,7 +1354,6 @@ section#faq .one-third{
             /* smiles */
 
             ul.gallery-smiles li:nth-of-type(even){
-
               display:none!important;
               }
 
