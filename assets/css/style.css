@@ -1580,11 +1580,20 @@ section.cta .button-m{
                 width:100%;
                 }
               
-                
-     .cta-buttons li{
-      padding-bottom: 12px;  
-   	    }
-     
+                section.cta .section-inner h3{
+                 font-size:145%!important;
+                 letter-spacing:0px;
+                 
+          }
+
+          section.cta p{
+            font-size:105%!important;
+          }
+
+          .cta-buttons li{
+            padding-bottom: 12px;  
+              }
+          
 
          #implant-container-2 .one-third{
           width:90%;
