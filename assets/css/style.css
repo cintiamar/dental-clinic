@@ -726,27 +726,31 @@ section#welcome > *{
             position: absolute;
             top: 30%;   /*  original: top 50% adjustes que tiram do alinhamento automatico*/
             left: 50%;
-            transform: translate(-50%, -50%);
+            transform: translate(-50%, -70%);
             }
           
         
         
         .services-svg-box  h4{
           position: absolute;
-          top: 50%;
+         /* top: 50%; */
           left: 50%;
-          transform: translate(-50%, -50%);
+          transform: translate(-50%, 70%);
            color:#fff;
            font-weight: 400;
            font-size:105% ;
           letter-spacing: 1px;
+          line-height:14px;
           }
           
-            
-          .services-svg-box h4, .services-svg-box:nth-child(3n) h4{
-          top: 72%;
-        
-          }
+               
+         .services-svg-box:first-child h4,  .services-svg-box:nth-child(3n) h4{
+         /*  border: 1px solid salmon;  */
+          transform: translate(-50%, 100%);      
+          line-height:18px;
+             }   
+
+         
           
           /*---- hover ----*/
              
