@@ -1220,25 +1220,33 @@ section.implant-types{
 	}
 	 
 	 section#implants p{      /* set space between paragraphs*/
-    line-height:26px;	
-   
+    line-height:26px;	   
     }
 
 	 
-
+    section#implants .cta-buttons a{      /* set space between paragraphs*/
+     margin-bottom:20px;  
+      }
+  
 	 
 	 .box-1, .box-2{
 	  width:48%;
       float:left;	
       margin-right:1%;	
       border:1px solid blue;	  
+   
 	}
 	 
+  .box-1, .box-2, .box-1 img{
+    height:500px;
+  }
+
+
 	#implants .box-1 img{
     width:80%;
     }
 	
-
+    
 	#implant-container-1{
 	margin-bottom:30px;
 	}		
@@ -1259,6 +1267,10 @@ section.implant-types{
 	}
 	
 	/* --- cta dark--*/
+
+  section.cta{
+    height:180px;
+  }
 	
 	section.cta .section-inner *{   /*aplied to all its children*/
 	text-align:center;	    
@@ -1272,16 +1284,15 @@ section.implant-types{
 	font-size:175%;
 	}
 	
-	.cta a.button-m {   
-    margin-left:150px;
-	  margin-top:30px!important;
-    position:relative;
-  	text-align:center;	 
- 
 
-	}
-	
 		
+section.cta .button-m{
+  position:absolute;
+  left:50%;
+  -webkit-transform: translateX(-50%); /*absolute mitte when i dont know the witht*/
+  transform: translateX(-50%);  
+  
+  }
 
 		 
 
