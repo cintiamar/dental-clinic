@@ -1077,42 +1077,38 @@ section#faq .one-third{
      
         footer{
           height: 200px;
-/*  background-color:rgba(2,100,111,1); */
-/* background-color:#eee; */
-background-color:#2d2d2d;
-        }
+      /*  background-color:rgba(2,100,111,1); */
+      /* background-color:#eee; */
+      background-color:#2d2d2d;
+              }
 
 
 
-span#logo-name-footer, footer div  h4{
-       color:#5B9BA2;
-}
+    span#logo-name-footer, footer div  h4{
+          color:#5B9BA2;
+    }
 
        footer div  h4{
         text-transform:capitalize;   
         font-weight:500;
- color:#5B9BA2;
-
+        color:#5B9BA2;
        }
     
      
                 
         footer  span{
-            font-size:90%;
-             /*  color:#454545; */
-   color:#fff;
-                /*color:rgba(69, 69, 69, 1)*/
-    font-weight:400;
+          font-size:90%;             
+          color:#fff;              
+           font-weight:400;
             }
     
   
-.wrapper{
-  width: 100%;
-  max-width: 960px;
-  margin: 0 auto;
-  
-}
-    
+        .wrapper{
+          width: 100%;
+          max-width: 960px;
+          margin: 0 auto;  
+        }
+            
         #diepold-dental, #opening-hours, #policies{
         width:28%;       
         float:left;	                 
@@ -1133,24 +1129,25 @@ span#logo-name-footer, footer div  h4{
 
 
 
-footer a.logo-image img{  
-   /* width:35%;         */     /* properties with automatic center*/
-    display: inline-block;   
-    margin-left:0;
-    margin-right:7px;   
-   max-width: 20px; /* image size*/
-   float:left;
-  }
-
-span#logo-name-footer{
-   float:left;
-    font-size:90%;            
-   }
-
-    
- #diepold-dental ul{
-    margin-top:25px;
+    footer a.logo-image img{  
+      /* width:35%;         */     /* properties with automatic center*/
+        display: inline-block;   
+        margin-left:0;
+        margin-right:7px;   
+      max-width: 20px; /* image size*/
+      float:left;
+      opacity:1;
       }
+
+    span#logo-name-footer{
+      float:left;
+        font-size:90%;            
+      }
+
+        
+    #diepold-dental ul{
+        margin-top:10px;
+          }
  
  
     
@@ -1167,11 +1164,12 @@ span#logo-name-footer{
     margin-right:7px;   
     }
     
+    footer #diepold-dental div.flex-container{
+      justify-content:flex-start!important;   
+    }
 
-
-
-
-
+      /* .flex-container is with align-items: center; to align 3 boxes with dif height 
+         needed align-item: flex-start! */  
 
 
         
