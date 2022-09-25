@@ -1594,14 +1594,16 @@ section.cta .button-m{
 
                 /* section#about buttom */
                 
-                section#about a#button-about.button-p{
-                  display:block;
-                 }
+                
+                section#about a#button-about.button-m{
+                  padding:0.7em 1.7em;	
+                  transform: translate(50%,-50%);
+                  right:66%;
+                           
+                  }
             
                 
-                 section#about a#button-about.button-m{
-                  display:none;
-                 }
+              
             
                   /*  sub page - implant   */
               .box-1, .box-2{
@@ -1654,7 +1656,14 @@ section.cta .button-m{
 
             /*section reviews - google*/
 
-         
+            section#reviews .one-third{
+              width:98%!important;
+                          }
+
+            section#reviews .one-third img{          
+              -webkit-transform: translateX(-50%); /*absolute mitte when i dont know the witht*/
+              transform: translateX(5%);  
+            }
 
             #reviews .google-reviews-1{
               display:none;
@@ -1663,6 +1672,8 @@ section.cta .button-m{
             #reviews .google-reviews-2 img{
               width:100%;
               display:block;
+              position:absolute;
+
                 }
 
                 #reviews .flex-container{
