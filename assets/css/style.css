@@ -1676,17 +1676,13 @@ section.cta .button-m{
 
                 }
 
-                #reviews .flex-container{
-                  align-itens:stretch;
-                }
-
-                
-          
-          
-
-
+        
           
               /* footer */    
+
+              span#logo-name-footer, footer a.logo-image img{
+                float:none;
+              }
               
               footer ul li:first-of-type{
                 padding-top:12px!important;
