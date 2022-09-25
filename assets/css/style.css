@@ -1225,14 +1225,9 @@ section.implant-types{
     }
 
 	 
-	.box-1{
-	  width:48%;
-      float:left;	
-      margin-right:1%;	
-     
-	}
+
 	 
-	 .box-2{
+	 .box-1, .box-2{
 	  width:48%;
       float:left;	
       margin-right:1%;	
@@ -1243,9 +1238,7 @@ section.implant-types{
     width:80%;
     }
 	
-	#implant-container-1 .box-1 img{
-		width:100%;	
-		}
+
 	#implant-container-1{
 	margin-bottom:30px;
 	}		
