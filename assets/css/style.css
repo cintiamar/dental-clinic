@@ -923,7 +923,14 @@ section#reviews .one-third{
     }
    
         
-
+    #reviews .google-reviews-1{
+      display:block;
+      }
+      
+    #reviews .google-reviews-2 img{
+      display:none;
+        }
+        
 
     /* END-- section#reviews--- */
 
@@ -1226,8 +1233,7 @@ section.implant-types{
 	  width:48%;
       float:left;	
       margin-right:1%;	
-      border:1px solid blue;	  
-   
+      border:1px solid blue;	     
 	}
 	 
   #implant-welcome .box-1,  #implant-welcome .box-2,  #implant-welcome .box-1 img{
@@ -1236,7 +1242,7 @@ section.implant-types{
 
 
 	#implants .box-1 img{
-    width:80%;
+    width:100%;
     }
 	
    
@@ -1427,6 +1433,15 @@ section.cta .button-m{
   
   /*- end drop down menu -*/
 
+  /* --- sub pages --- */
+
+  /* sub page :implant  */
+  .implant-bar ul li{
+    list-style-type:none;	
+    display:inline-block;      /* torna o bloco da  navigation  em um bloco-linha , diferente do display;block do Logo//*/	
+	padding: 5px 0;
+	}		
+
     /* Extra large devices (large laptops and desktops, 1200px and up) */
     @media only screen and (min-width: 1200px) {
       .innerbox{
@@ -1456,7 +1471,8 @@ section.cta .button-m{
         border:1px solid orangered; 
     }
   
-          #hero-outer .btn-header.btn-header-white{
+          #hero-outer .btn-header.btn-header-white,  
+          #hero-outer-subpage .btn-header.btn-header-white{
         display: none;          
           }
         
@@ -1546,6 +1562,54 @@ section.cta .button-m{
                   display:none;
                  }
             
+                  /*  sub page - implant   */
+              .box-1, .box-2{
+                width:95%;
+                  float:left;	
+                  padding-right:4%;
+                  padding-left:4%;     
+                  border:1px solid yellow;	     
+              }
+               
+              #implant-welcome .box-1,  #implant-welcome .box-2,  #implant-welcome .box-1 img{
+                height:500px;
+              }
+            
+            
+              #implants .box-1 img{
+                width:100%;
+                }
+              
+                
+     .cta-buttons li{
+      padding-bottom: 12px;  
+   	    }
+     
+
+         #implant-container-2 .one-third{
+          width:90%;
+         }
+       
+         section.cta a.button.button-m{
+          padding:0.7em 1.2em;	
+          margin-bottom:60px!important;  /*DOES NOT WORK*/
+         }
+            
+
+
+
+
+         #reviews .google-reviews-1{
+          display:none;
+          }
+          
+        #reviews .google-reviews-2 img{
+          width:90%;
+          display:block;
+            }
+            
+          
+          
 
 
                 /* section reviews */
@@ -1557,14 +1621,26 @@ section.cta .button-m{
     
               /* footer */    
               
-              
+              footer ul li:first-of-type{
+                padding-top:12px!important;
+                margin-top:12px;
+                border: 1px solid pink;
+                line-height:12px;
+              }
+             
+              footer #diepold-dental ul li:first-child{
+              margin-top:28px;  
+              border: 1px solid greenyellow;                           
+              }
+
+
               #column-footer.flex-container{
                 text-align: center;
              }
-       
+
+             
              #diepold-dental #logo-image img{
-              font-size: 200%;
-              
+              font-size: 200%;                    
                 }
 
                 span#logo-name-footer{
@@ -1596,6 +1672,11 @@ section.cta .button-m{
                 margin-bottom:15px;   
                           }
 
+
+
+             
+
+         
 
     }
 
