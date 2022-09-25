@@ -1076,95 +1076,99 @@ section#faq .one-third{
 
         /* ----- footer -----*/
      
-        .wrapper{
-            width: 100%;
-            max-width: 960px;
-            margin: 0 auto;
-            
+        footer{
+          height: 200px;
+/*  background-color:rgba(2,100,111,1); */
+/* background-color:#eee; */
+background-color:#2d2d2d;
         }
-        
-        
-            
-              footer{
-             /*  background-color:#fbfcfd; */
-              background-color:#efefef;
-              height: 200px;
-                }
-        
-               footer div  h4{
-                text-transform:capitalize;   
-                font-weight:500;
-               }
-            
-             
-                        
-                footer  span{
-                    font-size:90%;
-                       color:#454545;
-                        color:rgba(69, 69, 69, 1)
-                    }
-            
-                
-                #diepold-dental, #opening-hours, #policies{
-                width:28%;       
-                float:left;	                 
-                margin-right:2%;
-                border: 1px solid purple;
-                background-color:#fbfcfd;
-                }
-        
-        
-            footer #diepold-dental ul li, footer #opening-hours ul li, footer #policies ul li {		
-                list-style-type:none!important;	
-                    }
-                
-                
-            footer #diepold-dental ul li:nth-child(2){		
-            margin-left:8%;	
-            }
-            
-        
-        
-        
-        footer a.logo-image img{  
-          /*  width:35%;      */        /* properties with automatic center*/
-            display: inline-block;   
-            margin-left:0;
-            margin-right:7px;   
-            max-width: 20px; /* image size*/
-            float:left;
-          }
 
-          
+
+
+span#logo-name-footer, footer div  h4{
+       color:#5B9BA2;
+}
+
+       footer div  h4{
+        text-transform:capitalize;   
+        font-weight:500;
+ color:#5B9BA2;
+
+       }
     
-        span#logo-name-footer{
-           float:left;
-            font-size:90%; 
-            color:#5B9BA2;
-           }
-                          
-         
-            
-              #opening-hours ul, #policies ul{
-                margin-top:5px;
-          }
-            
-             #opening-hours, #policies{
-                margin-top:0px;
-          }
-            
-            #diepold-dental i{
-            color:#5B9BA2;
-            margin-right:7px;   
+     
+                
+        footer  span{
+            font-size:90%;
+             /*  color:#454545; */
+   color:#fff;
+                /*color:rgba(69, 69, 69, 1)*/
+    font-weight:400;
             }
-            
+    
+  
+.wrapper{
+  width: 100%;
+  max-width: 960px;
+  margin: 0 auto;
+  
+}
+    
+        #diepold-dental, #opening-hours, #policies{
+        width:28%;       
+        float:left;	                 
+        margin-right:2%;
+        border: 1px solid purple;              
+        }
+
+
+    footer #diepold-dental ul li, footer #opening-hours ul li, footer #policies ul li {		
+        list-style-type:none!important;	
+            }
         
-           div#column-footer.flex-container{
-              align-items:flex-start!important;           
-                          }
-         /* .flex-container is with align-items: center; to align 3 boxes with dif height 
-         needed align-item: flex-start! */                 
-                          
+        
+    footer #diepold-dental ul li:nth-child(2){		
+    margin-left:8%;	
+    }
+    
+
+
+
+footer a.logo-image img{  
+   /* width:35%;         */     /* properties with automatic center*/
+    display: inline-block;   
+    margin-left:0;
+    margin-right:7px;   
+   max-width: 20px; /* image size*/
+   float:left;
+  }
+
+span#logo-name-footer{
+   float:left;
+    font-size:90%;            
+   }
+
+    
+ #diepold-dental ul{
+    margin-top:25px;
+      }
+ 
+ 
+    
+      #opening-hours ul, #policies ul{
+        margin-top:5px;
+  }
+    
+     #opening-hours, #policies{
+        margin-top:0px;
+  }
+    
+    #diepold-dental i{
+    color:#5B9BA2;
+    margin-right:7px;   
+    }
+    
+
 
 
 
@@ -1678,11 +1682,19 @@ section.cta .button-m{
         
           
               /* footer */    
+              footer{
+                height:480px;
+              }
 
               span#logo-name-footer, footer a.logo-image img{
                 float:none;
               }
               
+            footer div  h4{
+            font-size: 105%;
+            font-weight:600!important;
+            }
+
               footer ul li:first-of-type{
                 padding-top:12px!important;
                 margin-top:12px;
@@ -1716,8 +1728,7 @@ section.cta .button-m{
                 width:95%;       
                 float:left;	                 
                 margin-right:2%;
-                border: 1px solid blue!important;
-                background-color:#fbfcfd;
+                border: 1px solid blue!important;     
                 }
 
 
@@ -1725,7 +1736,8 @@ section.cta .button-m{
                 footer #diepold-dental ul li span,
                 footer #opening-hours ul li span,
                 footer #policies ul li span{
-                font-size:112%;        
+                font-size:112%;   
+               font-weight:300;     
                           }
 
                 footer #diepold-dental ul,
