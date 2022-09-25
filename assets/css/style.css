@@ -211,7 +211,7 @@ font-weight: 600;
 }
 
 .light-gray{
-background-color: rgb(231, 234,244, 1);
+background-color:#fafafa;;
 }
 
 
@@ -224,6 +224,12 @@ background-color: rgb(231, 234,244, 1);
         background:#737373;
         background:rgba(115,115,115,1);	
         }
+
+    .dark{
+    background:#2d2d2d;
+        }
+      
+        
 
     /*% columns*/
 
@@ -598,6 +604,7 @@ header{
 
  #hero-image-implant{
     height:500px ; 
+
     width: 100%;
   background:url('../images/sub-pages/hero-sub-page-1200x500.png') no-repeat center center;        
     
@@ -802,14 +809,29 @@ section#welcome > *{
      font-weight:400;					
      }
 
-     .button-m{
-      padding:0.7em 1.7em;	
-     }
+  
+     .cta-buttons{
+      display:inline-block!important;
+       width:50%;
+          float:left;	
+      margin-top:20px;
+          margin-right:2%;
+      border: 1px solid blue;       			
+      }
+  
+      .cta-buttons a{
+        margin-top:4px;
+      }
 
-     .button-p{
-      padding:0.7em 1.2em;	
-     }
 
+      .button-m{
+        padding:0.7em 1.7em;	
+       }
+  
+       .button-p{
+        padding:0.7em 1.2em;	
+       }
+  
 
 .label{
 font-size: 110%;
@@ -1139,13 +1161,136 @@ section#faq .one-third{
         
  /*------sub-page >> implants ------*/
 
+/* implant types*/
+
+section.implant-types{
+	height:120px;
+	background-color:rgb(2, 100,111, 1);
+    background-color:#02646E;
+	 position: relative;
+	 	}
+	
+	.center {
+	margin: 0;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	-ms-transform: translate(-50%, -50%);
+	transform: translate(-50%, -50%);
+	}
+
+	
+	.implant-bar ul li{
+    list-style-type:none;	
+    display:inline-block;      /* torna o bloco da  navigation  em um bloco-linha , diferente do display;block do Logo//*/	
+	padding: 35px 0;
+	}		
+		
+	.implant-bar a{
+    color:#fff;
+	padding: 0 20px;
+	}		
+		
+	.implant-bar a:hover{	
+		font-weight:500;
+		text-decoration: underline;
+		}
+		
+   .implant-types-active{
+	 font-weight:500; 
+   }
+
+
+
+
     /* section#about buttom */
 
     section#implants a.button{
       margin:20px 0;  
     }
      
+ /*subpage implant > section#implants*/
+ section#implants .section-inner > div{
+	border: 1px solid green!important;
+	margin-left:-10px!important;		
+	}
+	
+	#implant-welcome{
+	margin-bottom:30px;
+	}
+	 
+	 section#implants p{      /* set space between paragraphs*/
+    line-height:26px;	
+   
+    }
 
+	 
+	.box-1{
+	  width:48%;
+      float:left;	
+      margin-right:1%;	
+     
+	}
+	 
+	 .box-2{
+	  width:48%;
+      float:left;	
+      margin-right:1%;	
+      border:1px solid blue;	  
+	}
+	 
+	#implants .box-1 img{
+    width:80%;
+    }
+	
+	#implant-container-1 .box-1 img{
+		width:100%;	
+		}
+	#implant-container-1{
+	margin-bottom:30px;
+	}		
+	
+	#implant-container-2 img{
+    width:100%;
+    }
+	
+
+	
+	#implant-container-2{
+    -webkit-filter: grayscale(1);
+        filter: grayscale(1);  /* efect Black and white*/
+	}
+	#implant-container-2:hover{
+    -webkit-filter: grayscale(0);
+        filter: grayscale(0);  
+	}
+	
+	/* --- cta dark--*/
+	
+	section.cta .section-inner *{   /*aplied to all its children*/
+	text-align:center;	    
+	}	
+	
+	section.cta .section-inner h3, section.cta.dark .section-inner p{   /*aplied to all its children*/
+     color:#fff;
+	}
+		
+	section.cta  .section-inner h3{   /*aplied to all its children*/
+	font-size:175%;
+	}
+	
+	.cta a.button-m {   
+    margin-left:150px;
+	  margin-top:30px!important;
+    position:relative;
+  	text-align:center;	 
+ 
+
+	}
+	
+		
+
+		 
 
 
  /* section#about  img */
