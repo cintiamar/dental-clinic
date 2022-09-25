@@ -1086,8 +1086,9 @@ section#faq .one-third{
         
             
               footer{
-                    background-color:#fbfcfd;
-                    height: 200px;
+             /*  background-color:#fbfcfd; */
+              background-color:#efefef;
+              height: 200px;
                 }
         
                footer div  h4{
@@ -1299,7 +1300,7 @@ section.implant-types{
 	}
 	
   section.cta  .section-inner p{   
-    font-size:125%;
+    font-size:115%;
     }
     
 
@@ -1309,7 +1310,7 @@ section.cta .button-m{
   left:50%;
   -webkit-transform: translateX(-50%); /*absolute mitte when i dont know the witht*/
   transform: translateX(-50%);  
-  
+  margin-top:12px;
   }
 
 		 
