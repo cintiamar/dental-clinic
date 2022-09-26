@@ -268,7 +268,114 @@ nav {
 }
 
 
+ /*-----Drop down Menu-----*/	
+		
+ nav {
+  text-align:right;
+  margin-top:30px;   /* define height to nav in order to have space for the logo img*/
+}
 
+
+#main-menu.main-menu *{
+color:#02646F;
+}
+
+
+.main-menu {
+  display:block;
+  position:relative;
+  background:#fff;
+}
+.container-menu {
+  width:80%;
+  margin:0 auto;
+}
+.main-menu:before,.main-menu:after{
+  display: table;
+  line-height: 0;
+  content: "";
+}
+.core-menu {
+  text-align:center;
+  font:normal normal normal 1em/1 Roboto, sans-serif;
+  overflow:hidden;
+}
+.core-menu li {
+  list-style:none;
+  display:inline-block;
+  cursor:pointer;
+}
+.core-menu li a {
+  display:inline-block;
+  padding:1em;  
+}
+
+.core-menu li a:hover {
+  background:#02646F;
+  color:#f2f2f2!important;
+}
+li span.toggle {
+  padding-left:1em;
+}
+.toggle:before {
+  content:"\f107";
+  font:normal normal normal 16px/1 FontAwesome;
+}
+.dropdown {
+  position:absolute;
+  width:230px;         
+  text-align:left;
+  display:none;
+  z-index:1 !important;   
+  background:#fff;
+}
+.dropdown li {
+  display:block;
+  }
+.dropdown li a {
+  display:block;
+  color:#02646F!important; 
+}
+
+.dropdown2 {
+  position:absolute;
+  width:230px;
+background:#fff;
+  text-align:left;
+  display:none;
+  right:-100%;
+  top:0;
+}
+.dropdown2 li {
+  display:block;
+  }
+.dropdown2 li a {
+  display:block;
+}
+li span.toggle2 {
+  position:absolute;
+  right:0;
+  margin-right:20px;
+}
+.toggle2:before {
+  content:"\f105";
+  font:normal normal normal 16px/1 FontAwesome;
+}
+.hamburger-menu {
+  padding:1em;
+  display:none;
+  font:normal normal normal 16px/1 Roboto;
+  text-transform:uppercase;
+  background:#2d2d2d;
+}
+
+
+/*- end drop down menu -*/
+ 
+
+
+
+/* end navigation*/
 .div-logo{
     width:25%;
     line-height: 23px;
@@ -305,74 +412,8 @@ margin-top: 0px;
 
 
 
-header .innerbox{
-	height:5em;
-	padding:0px;
-	}
 
-header{
-    top: 0px;
-     overflow: hidden;
-   /*  z-index: 999; */
-    width: 100%;
-    -webkit-transition: all 0.3s;
-    transition: all 0.3s;  
-  }
- 
-
-#menu li{
-	 list-style-type: none;
-	 display:inline;	
- }
-
-#menu a{
-        color:inherit;
-		margin-left:13px;
-		font-size:110% ;
-		letter-spacing:0.5px;
-        font-weight:500;	
-    }
-
-    #menu a:hover{
-        border-bottom:1px solid;
-        color:#02646E!important;
-        color:rgb(2, 100, 110,1);      
-        -webkit-transition: all 0.2s ease-in-out;
-         -moz-transition: all 0.2s ease-in-out;
-         -o-transition: all 0.2s ease-in-out;
-         -ms-transition: all 0.2s ease-in-out;
-         transition: all 0.2s ease-in-out;        
-    }
-	
-   #menu  a#active{
-    color:#02646E!important;   
-    font-weight: 500;
-
-    }
-
-     /* Book now */
-    
-     #menu a.book-now:hover{      
-        color:#fff!important;
-        color:rgb(255, 255, 255,1);     	
-      		}
-	
-		a.book-now{
-		border-radius:50px;
-        display:inline-block; /*  display: inline-block logo pode ter um padding */
-		text-transform:uppercase;
-		font-weight:500;
-		padding:0.5em 0.8em;  
-		}
-
-		
-		a.book-now:hover{
-		color:#fff;
-		}
-
-        .book-now{
-        background-color: rgb(2, 100, 111, 0.7);          
-                               }
+                               
         
 
     /* --------hero------------*/
@@ -493,112 +534,7 @@ header{
     
     /* --- END btn-hero ---*/
 
-      /*-----Drop down Menu-----*/	
-		
-        nav {
-          text-align:right;
-          margin-top:30px;   /* define height to nav in order to have space for the logo img*/
-        }
-
-
-        #main-menu.main-menu *{
-        color:#02646F;
-        }
-
-
-        .main-menu {
-          display:block;
-          position:relative;
-          background:#fff;
-        }
-        .container-menu {
-          width:80%;
-          margin:0 auto;
-        }
-        .main-menu:before,.main-menu:after{
-          display: table;
-          line-height: 0;
-          content: "";
-        }
-        .core-menu {
-          text-align:center;
-          font:normal normal normal 1em/1 Roboto, sans-serif;
-          overflow:hidden;
-        }
-        .core-menu li {
-          list-style:none;
-          display:inline-block;
-          cursor:pointer;
-        }
-        .core-menu li a {
-          display:inline-block;
-          padding:1em;  
-        }
-
-        .core-menu li a:hover {
-          background:#02646F;
-          color:#f2f2f2!important;
-        }
-        li span.toggle {
-          padding-left:1em;
-        }
-        .toggle:before {
-          content:"\f107";
-          font:normal normal normal 16px/1 FontAwesome;
-        }
-        .dropdown {
-          position:absolute;
-          width:230px;         
-          text-align:left;
-          display:none;
-          z-index:1 !important;   
-          background:#fff;
-        }
-        .dropdown li {
-          display:block;
-          }
-        .dropdown li a {
-          display:block;
-          color:#02646F!important; 
-        }
-
-        .dropdown2 {
-          position:absolute;
-          width:230px;
-        background:#fff;
-          text-align:left;
-          display:none;
-          right:-100%;
-          top:0;
-        }
-        .dropdown2 li {
-          display:block;
-          }
-        .dropdown2 li a {
-          display:block;
-        }
-        li span.toggle2 {
-          position:absolute;
-          right:0;
-          margin-right:20px;
-        }
-        .toggle2:before {
-          content:"\f105";
-          font:normal normal normal 16px/1 FontAwesome;
-        }
-        .hamburger-menu {
-          padding:1em;
-          display:none;
-          font:normal normal normal 16px/1 Roboto;
-          text-transform:uppercase;
-          background:#2d2d2d;
-        }
-
-
-/*- end drop down menu -*/
-         
-
-
+     
 
 
 
