@@ -1,0 +1,12 @@
+      /* tablet screen  */
+    /*  @media only screen and (max-width: 992px) { */
+
+      @media only screen (min-width:769px) and (max-width: 992px){
+    
+        .innerbox{
+        border:1px solid yellow;  
+        } 
+
+
+        
+      }
