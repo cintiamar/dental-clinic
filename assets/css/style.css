@@ -461,10 +461,8 @@ margin-top: 0px;
         position:absolute;	
         top:90%;
         left:40%;
-        transform:translate(-50%,-50%);	
-    
-    
-     }
+        transform:translate(-50%,-50%);	   
+         }
      
       .btn-header ul li{
     list-style-type:none;	
@@ -851,6 +849,12 @@ section#reviews .one-third{
   
     } 
 
+    
+    
+    section#reviews .flex-container div:nth-of-type(1){
+      border: 1px solid pink;
+      display:none;
+    }
     
 section#reviews .one-third{
     width:32.8%;       

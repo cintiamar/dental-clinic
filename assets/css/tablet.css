@@ -10,7 +10,35 @@
        border:1px solid yellow;  
        } 
        
- 
+       section#hero-outer .btn-header ul{
+        display:flex;
+        flex-direction: column;   
+               }
+
+        
+       section#hero-outer .btn-header ul li{
+       margin-bottom:12px;
+       }
+
+       div.btn-header {       
+        position:absolute;	    
+        transform:translate(-100%,-75%);	   
+         }
+     
+       
+      /* reviews */
+      section#reviews .flex-container div + div{   
+        display:none;
+      }
+      
+      section#reviews .flex-container div:nth-of-type(1){
+        border: 1px solid pink;
+        display:block;
+      }
+      
+      section#reviews .flex-container{     flex-direction: column;
+
+    }
        
      }
 
