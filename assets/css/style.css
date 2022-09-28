@@ -533,7 +533,7 @@ margin-top: 0px;
     height:500px ; 
 
     width: 100%;
-  background:url('../images/sub-pages/hero/hero-dental-implants-1600x1200-2-r.png') no-repeat center center;        
+  background:url('../images/sub-pages/hero/hero-dental-implants-1600x1200-2-r.webp') no-repeat center center;        
     
   -webkit-filter: grayscale(1);
   filter: grayscale(1);  /* efect Black and white*/
@@ -746,7 +746,7 @@ section#welcome > *{
   
     
      .cta-buttons li{
-      margin-top:20px!important;
+      margin-top:25px!important;
      /* border: 1px solid red;   */
    	
     }
@@ -1145,7 +1145,17 @@ section.implant-types{
 	 font-weight:500; 
    }
 
+   	      /* properties to second img - mobile*/
+           #implant-container-1 .box-1 div+div{
+          /*  border: 1px solid red; */
+          display:none;
+           }
 
+             /* properties to first img - website*/
+           #implant-container-1 .box-1 div:nth-of-type(1){
+          /*  border: 1px solid yellow; */
+            /*display:none;*/
+           }
 
 
     /* section#about buttom */
@@ -1245,7 +1255,13 @@ section.cta .button-m{
   margin-top:12px;
   }
 
-		 
+  section#implant-reviews .google-reviews-1 img{
+    display:block;
+      }
+      
+  section#implant-reviews .google-reviews-2 img{
+    display:none;
+      }
 
 
  /* section#about  img */
