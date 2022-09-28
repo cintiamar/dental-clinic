@@ -910,7 +910,6 @@ section#faq .one-third{
 
           .column img{  /* Make image fit in the div */
           width: 100%;
-
           }
 
           .column img:hover{
@@ -1258,7 +1257,7 @@ section.cta .button-m{
   section#implant-reviews .google-reviews-1 img{
     display:block;
       }
-      
+
   section#implant-reviews .google-reviews-2 img{
     display:none;
       }
