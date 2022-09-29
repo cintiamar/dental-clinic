@@ -3,7 +3,7 @@
    @media only screen and (max-width: 768px) {
        
     .innerbox{
-      border:1px solid  orangered; 
+     /* border:1px solid  orangered; */
       margin: 0 0!important; 
   }
 
@@ -41,9 +41,6 @@
       }
       
 
-  
-
-
        #welcome-1 p{
        margin-left:25px!important;   
        margin-right:25px;  
@@ -69,8 +66,7 @@
         display: none;
       }
 
-      .innerbox > span{
-        color:red;
+      .innerbox > span{       
         display:none;
       }
 
@@ -89,30 +85,23 @@
     
         section#implants p{      /* set space between paragraphs*/
           line-height:23px;	
-          font-size:120%;         
-          color:red; 
-          }
+          font-size:120%;       
+                  }
 
 	 
         
    	      /* properties to second img - mobile*/
-           #implant-container-1 .box-1 div+div{
-            /*  border: 1px solid red; */
+           #implant-container-1 .box-1 div+div{        
             display:block;
              }
   
             /* properties to first img - website*/
-             #implant-container-1 .box-1 div:nth-of-type(1){
-            /*  border: 1px solid yellow; */
+             #implant-container-1 .box-1 div:nth-of-type(1){          
               display:none;
              }
       
  
-   
-    
-
           /* smiles */
-
           ul.gallery-smiles li:nth-of-type(even){
             display:none!important;
             }
@@ -128,8 +117,7 @@
         margin-bottom:15px;  
         }
           
-        #about .two-thirds, #about .one-third{
-          /* border:2px solid pink; */
+        #about .two-thirds, #about .one-third{         
            width:99%;     	
            margin-right:0.2%;
           }
@@ -147,20 +135,17 @@
               padding-bottom: 40px;
               }
 
-              /* section#about buttom */
-              
+              /* section#about buttom */              
               
               section#about a#button-about.button-m{
                 padding:0.7em 1.7em;	
                 transform: translate(50%,-50%);
-                right:66%;
-                         
+                right:66%;                         
                 }
           
-              
-            
+                        
           
-                /*  sub page - implant   */
+            /*  sub page - implant   */
 
             section#implants .innerbox{
             padding-bottom:0;
@@ -168,16 +153,13 @@
 
             .box-1{
               width:100%;
-                float:left;	
-                
-              /*  border:1px solid yellow;	     */
+                float:left;               
             }
              
             .box-2{
               width:99%;
                 float:left;              
-                padding-left:1%;     
-              /*  border:1px solid yellow;	     */
+                padding-left:1%;              
             }
 
             #implant-welcome .box-1,  #implant-welcome .box-2,  #implant-welcome .box-1 img{
@@ -186,8 +168,7 @@
           
           
             #implants .box-1 img{
-              width:100%;
-              border: 1px solid pink;
+              width:100%;          
               }
         
             .cta-buttons li{
@@ -202,9 +183,7 @@
 
 
           /* section CTA*/
-                            
-         
-
+             
            section.cta .section-inner h3, section.cta  .section-inner p{   
              display:none;
            }
@@ -216,12 +195,7 @@
             padding:0.7em 1.2em;	
             margin-top:20px!important;  
           }
-
-            
-          section.cta .button.button-m{
-         /*   left:37%; */
-          }
-              
+                     
           section.cta a.button.button-m {
             padding: 0.7em 2.7em;
             margin-top:60px!important;
@@ -234,22 +208,12 @@
           
           #whitening-container-2 .box-1, section#whitening .box-2,  #whitening-container-2 .one-third{
             width:99%!important;     	
-            margin-right:0.2%;
-           	border:1px solid blue;	     
+            margin-right:0.2%;       
             }
 
               #whitening-welcome .box-1, #whitening-welcome .box-1 img{
             width:100%!important;    
           	                 }
-
-
-         
-
-
-
-
-            
-
              /*section reviews - google*/
 
           section#reviews .one-third{
@@ -288,14 +252,12 @@
 
             footer ul li:first-of-type{
               padding-top:12px!important;
-              margin-top:12px;
-              border: 1px solid pink;
+              margin-top:12px;            
               line-height:12px;
             }
            
             footer #diepold-dental ul li:first-child{
-            margin-top:18px;  
-            border: 1px solid greenyellow;                           
+            margin-top:18px;                                  
             }
 
 
@@ -310,16 +272,14 @@
 
               span#logo-name-footer{
                 font-size:107%;
-                 font-weight:500!important;
-                 border: 1px solid  blue;
+                 font-weight:500!important;         
            }
          
   
             #column-footer.flex-container #diepold-dental, #opening-hours, #policies{
               width:95%;       
               float:left;	                 
-              margin-right:2%;
-              border: 1px solid blue!important;     
+              margin-right:2%;           
               }
 
                          
