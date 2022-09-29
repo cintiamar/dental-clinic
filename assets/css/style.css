@@ -1308,16 +1308,15 @@ section.cta .button-m{
       }
        
       #whitening-welcome .box-1,  #whitening-welcome .box-2,  #whitening-welcome .box-1 img{
-        height:420px;
+        height:inherit;
       }
     
 
       #whitening-welcome .box-2 .cta-buttons {
-        margin-top:35px!important;
+      margin-top:105px!important;      
         border: 1px solid magenta;       
       }
-        
-
+     
 
 
     /* Extra large devices (large laptops and desktops, 1200px and up) */
