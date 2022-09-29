@@ -1272,13 +1272,7 @@ section.cta .button-m{
         filter: grayscale(0.7);  /* efect Black and white*/
     }
     
-    
-    /*  ----   MEDIA QUERIES ----- */
-
-    /* dropdown Menu*/
-
-    
-
+      
 
 
   /* --- sub pages --- */
@@ -1322,7 +1316,16 @@ section.cta .button-m{
         }
       
 
+        #whitening-container-2{
+          -webkit-filter: grayscale(1);
+              filter: grayscale(1);  /* efect Black and white*/
+        }
 
+        #whitening-container-2:hover{
+          -webkit-filter: grayscale(0);
+              filter: grayscale(0);  
+        }
+        
     /* Extra large devices (large laptops and desktops, 1200px and up) */
     @media only screen and (min-width: 1200px) {
       .innerbox{
