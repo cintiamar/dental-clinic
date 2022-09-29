@@ -748,8 +748,7 @@ section#welcome > *{
     
      .cta-buttons li{
       margin-top:25px!important;
-     /* border: 1px solid red;   */
-   	
+     /* border: 1px solid red;   */   	
     }
       
 
@@ -1303,20 +1302,21 @@ section.cta .button-m{
 
       #whitening-welcome .box-2{
         width:62%;
-          float:left;	
-          margin-right:1%;	
-          border:1px solid green;	     
+        float:left;	
+        margin-right:1%;	
+        border:1px solid green;	     
       }
        
-      #implant-welcome .box-1,  #implant-welcome .box-2,  #implant-welcome .box-1 img{
-        height:500px;
+      #whitening-welcome .box-1,  #whitening-welcome .box-2,  #whitening-welcome .box-1 img{
+        height:420px;
       }
     
-    
-      #implants .box-1 img{
-        width:100%;
-        }
-      
+
+      #whitening-welcome .box-2 .cta-buttons ul{
+        margin-top:25px!important;
+        border: 1px solid magenta;
+      }
+        
 
 
 
