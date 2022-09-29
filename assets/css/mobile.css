@@ -80,7 +80,14 @@
           padding:9px 0;
         }
 
-       
+    
+        section#implants p{      /* set space between paragraphs*/
+          line-height:23px;	
+          font-size:120%;         
+          color:red; 
+          }
+
+	 
         
    	      /* properties to second img - mobile*/
            #implant-container-1 .box-1 div+div{
@@ -184,6 +191,8 @@
              display:none;
            }
 
+       
+
         
           section.cta a.button.button-m{
             padding:0.7em 1.2em;	
@@ -192,11 +201,18 @@
 
             
           section.cta .button.button-m{
-           left:37%; 
+         /*   left:37%; */
           }
               
+          section.cta a.button.button-m {
+            padding: 0.7em 2.7em;
+            margin-top:40px!important;
+        }
                    
-
+          .cta span{
+            font-size:145%;
+            letter-spacing:2px;
+          }
 
           /*section reviews - google*/
 
