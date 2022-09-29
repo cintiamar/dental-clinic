@@ -1305,7 +1305,8 @@ section.cta .button-m{
     
 
       #whitening-welcome .box-2 .cta-buttons {
-      margin-top:105px!important;      
+      margin-top:105px!important;  
+      margin-bottom:60px;    
         border: 1px solid magenta;       
       }
      

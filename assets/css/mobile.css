@@ -70,8 +70,9 @@
       }
 
         h2{
-          font-size:25px;
+          font-size:22px;
           letter-spacing:0;
+         
         }
 
         /* implant.html */
@@ -188,6 +189,7 @@
               padding-bottom: 12px;  
                 }
             
+            
 
           #implant-container-2 .one-third{
             width:100%;
@@ -217,15 +219,33 @@
               
           section.cta a.button.button-m {
             padding: 0.7em 2.7em;
-            margin-top:40px!important;
+            margin-top:60px!important;
         }
                    
           .cta span{
             font-size:145%;
             letter-spacing:2px;
           }
+          
+          #whitening-container-2 .box-1, section#whitening .box-2,  #whitening-container-2 .one-third{
+            width:99%!important;     	
+            margin-right:0.2%;
+           	border:1px solid blue;	     
+            }
 
-          /*section reviews - google*/
+              #whitening-welcome .box-1, #whitening-welcome .box-1 img{
+            width:100%!important;    
+          	                 }
+
+
+         
+
+
+
+
+            
+
+             /*section reviews - google*/
 
           section#reviews .one-third{
             width:98%!important;
@@ -240,6 +260,9 @@
             display:none;
               }
         
+            #whitening-container-2 .one-third img{
+              width:98%!important;
+            }
             
            
       
@@ -283,7 +306,7 @@
               span#logo-name-footer{
                 font-size:107%;
                  font-weight:500!important;
-               border: 1px solid  blue;
+                 border: 1px solid  blue;
            }
          
   
@@ -293,7 +316,6 @@
               margin-right:2%;
               border: 1px solid blue!important;     
               }
-
 
                          
               footer #diepold-dental ul li span,
@@ -308,6 +330,25 @@
               footer #policies ul{
               margin-bottom:15px;   
                         }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+          }
+
+         
 
             /* -- Media Queries ---*/
 @media (max-width:720px) {
