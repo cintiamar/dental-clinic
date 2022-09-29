@@ -1312,9 +1312,9 @@ section.cta .button-m{
       }
     
 
-      #whitening-welcome .box-2 .cta-buttons ul{
-        margin-top:25px!important;
-        border: 1px solid magenta;
+      #whitening-welcome .box-2 .cta-buttons {
+        margin-top:35px!important;
+        border: 1px solid magenta;       
       }
         
 
