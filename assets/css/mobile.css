@@ -159,7 +159,7 @@
             section#implants .innerbox{
             padding-bottom:0;
             }
-            
+
             .box-1{
               width:100%;
                 float:left;	
@@ -168,10 +168,9 @@
             }
              
             .box-2{
-              width:96%;
-                float:left;	
-                padding-right:4%;
-                padding-left:4%;     
+              width:99%;
+                float:left;              
+                padding-left:1%;     
               /*  border:1px solid yellow;	     */
             }
 
