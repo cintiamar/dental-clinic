@@ -26,6 +26,14 @@
          }
      
        
+      /* about */
+
+      /* section#about buttom */
+      section#about a#button-about.button-m{
+        right:75%; 
+        }
+
+
       /* reviews */
       section#reviews .flex-container div + div{   
         display:none;
