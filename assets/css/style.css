@@ -1291,6 +1291,35 @@ section.cta .button-m{
 	padding: 5px 0;
 	}		
 
+
+      /* sub page whitening */
+
+      #whitening-welcome .box-1{
+        width:37%;
+          float:left;	
+          margin-right:1%;	
+          border:1px solid blue;	     
+      }
+
+      #whitening-welcome .box-2{
+        width:62%;
+          float:left;	
+          margin-right:1%;	
+          border:1px solid green;	     
+      }
+       
+      #implant-welcome .box-1,  #implant-welcome .box-2,  #implant-welcome .box-1 img{
+        height:500px;
+      }
+    
+    
+      #implants .box-1 img{
+        width:100%;
+        }
+      
+
+
+
     /* Extra large devices (large laptops and desktops, 1200px and up) */
     @media only screen and (min-width: 1200px) {
       .innerbox{
