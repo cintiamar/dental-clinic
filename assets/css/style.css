@@ -778,7 +778,7 @@ border: 1px solid aqua;
 
  
 section#about div.two-thirds{
-    margin-left: 0!important; /* to align <p> with h2 . it was taking margin from .two-thirds*/    
+   /* margin-left: 0!important; /* to align <p> with h2 . it was taking margin from .two-thirds*/    
     }
 
 /* section#about  img */
@@ -1281,119 +1281,7 @@ section.cta .button-m{
 
     
 
-/* -- Media Queries ---*/
-@media (max-width:720px) {
- 
-  .div-logo{
-    display:none;
-  }
-  
-  
-   .main-menu {
-      height:50px;
-      background:#2d2d2d;
-    }
-    .container-menu {
-      width:100%;
-    }
-    .navigation {
-      float:left;
-      display:block;
-      width:100%;
-    }
-    .core-menu {
-      float:right;
-      width:100%;
-      background:#1a1a1a;
-      margin:auto;
-      display:none;
-    }
-    
-    .core-menu li {
-      width:100%;
-      display:block;
-    
-    }
-    .core-menu li a{
-      display:block;
-      margin:auto;
-    /* color:red!important; */
-    
-    color:#4d929a;
-    }
-    .hamburger-menu {
-      display:block;
-      text-align:center;
-      padding-right:0!important; 
-      float:none;
-      width:100%;
-    }
-    .burger-1, .burger-2, .burger-3 {
-    display:block;
-    position:absolute;
-    width:20px;
-    height:3px;
-    border-radius:30px;
-    right:0;
-    margin-right:25px;
-    background:#fff;
-      -webkit-transition:.2s ease;
-      -ms-transition:.2s ease;
-      -moz-transition:.2s ease;
-      -o-transition:.2s ease;
-    transition:.2s ease; 
-    }
-    .burger-1 {
-    top:15px;
-    }
-    .burger-2 {
-    top:23px;
-    }
-    .burger-3 {
-    top:31px;
-    }
-    .burger-1.open, .burger-2.open, .burger-3.open {
-    -webkit-transition:.2s ease;
-    -ms-transition:.2s ease;
-    -moz-transition:.2s ease;
-    -o-transition:.2s ease;
-      transition:.2s ease;
-      transform-origin:50% 50%;
-    }
-    .burger-1.open {
-      top:25px;
-      width:23px;
-      transform:rotate(45deg);
-      -webkit-transform:rotate(45deg); 
-      -ms-transform:rotate(45deg); 
-      -moz-transform:rotate(45deg); 
-      -o-transform:rotate(45deg); 
-    }
-    .burger-2.open {
-      opacity:0;
-    }
-    .burger-3.open {
-      top:25px;
-      width:23px;
-      transform:rotate(-45deg);
-    }
-    .dropdown {
-      width:100%;
-      background:#0e0e0e;
-      text-align:center;
-      position:relative;
-    
-    }
-    .dropdown2 {
-      right:0;
-      top:0;
-      width:100%;
-      position:relative;
-      padding:0 20px;
-  }
-  
-  
-  /*- end drop down menu -*/
+
 
   /* --- sub pages --- */
 
