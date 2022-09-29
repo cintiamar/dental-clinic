@@ -49,9 +49,9 @@ color:#3a3a3a;
 
   .hr-style{
     border: 1px solid; 
-	border-color: rgba(2,100,111,0.5);   
-    width: 5%;  
-    border-width: 2px;
+	  border-color: rgba(2,100,111,0.3);   
+    width:3.5%;  
+    border-width:2px;
   }
 
   .hr-style:hover{
