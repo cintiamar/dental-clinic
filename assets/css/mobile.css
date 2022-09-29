@@ -177,16 +177,11 @@
 
 
           /* section CTA*/
-              
-              
-          section.cta .section-inner h3{
-            font-size:145%!important;
-            letter-spacing:0px;
-           }
-                   
+                            
+         
 
-         section.cta  .section-inner p{   
-           font-size:107%;
+           section.cta .section-inner h3, section.cta  .section-inner p{   
+             display:none;
            }
 
         
@@ -194,6 +189,12 @@
             padding:0.7em 1.2em;	
             margin-top:20px!important;  
           }
+
+            
+          section.cta .button.button-m{
+           left:37%; 
+          }
+              
                    
 
 
