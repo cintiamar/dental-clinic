@@ -651,8 +651,8 @@ section#welcome > *{
   
 
 .label{
-font-size: 110%;
-font-weight: 400;
+font-size: 95%;
+font-weight:300;
 letter-spacing: 1px;
 color:rgba(58, 58,58, 0.7);
 }
