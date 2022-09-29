@@ -611,8 +611,7 @@ section#welcome > *{
            -o-appearance: none;
            -ms-appearance: none;
            appearance: none;
-           background: none;
-           border-radius: none;           
+           background: none;                
            background-color:#02646E;
            background-color:rgba(2,100,110,1);  
           color:#fff;			
