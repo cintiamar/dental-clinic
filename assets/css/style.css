@@ -362,8 +362,9 @@ li span.toggle2 {
   font:normal normal normal 16px/1 FontAwesome;
 }
 .hamburger-menu {
-  padding:1em;
-  display:none;
+   /* padding:1em; */
+   padding-bottom:1em;
+    display:none;
   font:normal normal normal 16px/1 Roboto;
   text-transform:uppercase;
   background:#2d2d2d;
@@ -1323,7 +1324,7 @@ section.cta .button-m{
     .hamburger-menu {
       display:block;
       text-align:center;
-      padding-right:60px;
+      padding-right:0!important; 
       float:none;
       width:100%;
     }
