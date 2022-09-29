@@ -658,10 +658,7 @@ color:rgba(58, 58,58, 0.7);
 
 /*--- section#about--- */
 
-section#about div.one-third, section#about div.two-thirds{
-border: 1px solid aqua;
-} 
- 
+
 
 /* section#about  img */
 #about .one-third img{
@@ -724,13 +721,7 @@ section#about a#button-about.button-m{
 
 
 /*--- section#reviews--- */
-
-section#reviews .one-third{
-    border: 1px solid aqua;  
-    } 
-
-    
-    
+      
     section#reviews .flex-container div:nth-of-type(1){
       display:none;
     }
