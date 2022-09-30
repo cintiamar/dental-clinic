@@ -126,10 +126,16 @@ Therefore still remained an error :
 * “ End tag a violates nesting rules.”  
  from dropdown menu that needs to be understood in order to be fixed.
 
+ ![html-validator-report](assets/images/readme-images/reports/html-validator.png).
+
 ### CSS  
 css stylesheets were checked at [W3C CSS Validator](https://jigsaw.w3.org/css-validator/).
 Still remain a list of warnings related to -webkit-transition.
 Will be fixed and understood as I go further to the nexts modules.
+
+![css-validator-report-1](assets/images/readme-images/reports/css-validator-1.png)
+
+![css-validator-report-2](assets/images/readme-images/reports/css-validator-2.png)
 
 ### Performance of  Website
 
@@ -147,6 +153,8 @@ For this style, there are JavaScript resources.
 Will be fixed during JavaScript module
 
 ## Deployment
+
+
 
 ## Credits
 Drop down menu credit to @rafonzoo http://rafonzo.blogspot.co.id/ 
