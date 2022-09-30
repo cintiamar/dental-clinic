@@ -93,4 +93,27 @@ Offers the opportunity to connect directly via a link to Google Reviews and chec
 
 ### Clinic Gallery and Footer
 The  clinic gallery will provide the user to get know  how is the ambience of the clinic and its atmosphere.
-![cliinic-gallery-footer](assets/images/readme-images/clinic-gallery.png))
+![cliinic-gallery-footer](assets/images/readme-images/clinic-gallery.png)
+
+## The Implant Page
+Below the landing page is a box with links to all  implants types.
+As "Active", the type of implant is in bold, which refers to the page, providing a visual communication to the visitor from where he is.
+
+![implants-page](assets/images/readme-images/implant-page/implants-page.webp)
+
+### Implants at our Clinic
+An image of a satisfied and happy customer to provide visual communication of customer satisfaction with clinic's dental implant services. Next to photography, content with words highlighted in bold and respective links to more detailed information on the subject of keywords.
+
+![implants-at-our-cllinic](assets/images/readme-images/implant-page/implant-our-clinic.png)
+
+### Content area 
+This section allows the clinic to provide more content on the topic. To create visual interaction with the page visitor, there is a gallery with 3 images on the topic.
+
+![implants-page](assets/images/readme-images/implant-page/content-box.png)
+
+### Call to Action and Google Reviews 
+The CTA (Call to action) section with High Contrast Background Color, aims to draw visitors´s attention, inviting them to book a consultation with one of the experts at the dental clinic.
+
+Again, as well as in homepage, Google Reviews with more customer reviews, reinforcing how satisfied clinic customers are with the services.
+
+![implants-page](assets/images/readme-images/implant-page/content-box.png)

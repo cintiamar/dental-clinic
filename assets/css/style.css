@@ -1005,8 +1005,7 @@ section.implant-types{
     }
      
  /*subpage implant > section#implants*/
- section#implants .section-inner > div{
-	border: 1px solid green!important;
+ section#implants .section-inner > div{	
 	margin-left:-10px!important;		
 	}
 	
