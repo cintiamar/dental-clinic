@@ -3,7 +3,9 @@
 Dental Clinic is a site developed to dental clinic specialized in providing beautiful smiles through  dental implants and aesthetics dentistry. The visual communication was design to connect with its target group: women.
 
 Welcome to [Dental Clinic](https://8000-cintiamar-dentalclinic-8kldm1vidak.ws-eu67.gitpod.io/)
+![The Home page](/workspace/dental-clinic/assets/images/readme-images/dental-clinic-website.png)
 
+/workspace/dental-clinic/assets/images/readme-images/dental-clinic-website.png
 The  design concept of the website communicates dental aesthetics, with a  friendly atmosphere with visual interactivity on images to provide a slight touch of modernity.
 
 The blue and white colors were chosen because they refer to the health area. In addition, shades of blue convey confidence, according to neuromarketing studies.
