@@ -2,7 +2,7 @@
 
 Dental Clinic is a site developed to dental clinic specialized in providing beautiful smiles through  dental implants and aesthetics dentistry. The visual communication was design to connect with its target group: women.
 
-Welcome to [Dental Clinic](https://8000-cintiamar-dentalclinic-8kldm1vidak.ws-eu67.gitpod.io/)
+Welcome to [Dental Clinic](https://cintiamar.github.io/dental-clinic/)
 ![The Home page](assets/images/readme-images/dental-clinic-website.png)
 
 ### Design Concept
@@ -145,3 +145,15 @@ Note: Will be fixed as I go to the JavaScript module.
 In the About Us section of the homepage, there is a focus style which should be focused at the same time in one click.
 For this style, there are JavaScript resources.
 Will be fixed during JavaScript module
+
+## Deployment
+
+## Credits
+Drop down menu credit to @rafonzoo http://rafonzo.blogspot.co.id/ 
+
+
+## Media
+
+The photos used  all website are from [Unplash](https://unsplash.com/) open site and the graphic design platform [Canva](https://www.canva.com/).
+
+The images which were converted to .webp were converted at [Cloud Convert](https://cloudconvert.com/).
