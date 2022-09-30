@@ -41,3 +41,17 @@ For this Readme file, the pages that have been fully developed so far will be de
     • Navigation Bar
 Featured on all  pages, the full responsive dropdown navigation bar includes links to the Logo with the name of the dentist, Home page, Gallery and Sign Up page and is identical in each page to allow for easy navigation.
 This section will allow the user to easily navigate from page to page across all devices without having to revert back to the previous page via the ‘back’ button.
+
+    • The landing page image
+
+The landing includes a photograph  related to the page  with 3 buttons overlay, identical in each website page, to allow the user to quickly access the  website pages:
+online booking
+telephon
+emergency
+
+    • The landing page image
+
+The landing includes a photograph  related to the page  with 3 buttons overlay, identical in each website page, to allow the user to quickly access the  website pages:
+online booking
+telephon
+emergency
