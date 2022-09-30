@@ -116,4 +116,32 @@ The CTA (Call to action) section with High Contrast Background Color, aims to dr
 
 Again, as well as in homepage, Google Reviews with more customer reviews, reinforcing how satisfied clinic customers are with the services.
 
-![implants-page](assets/images/readme-images/implant-page/content-box.png)
+![cta-section](assets/images/readme-images/implant-page/CTA-and-google-reviews.png)
+
+## Validator  Testing
+###  HTML
+All codings were checked at [W3C HTML Validator](https://validator.w3.org/#validate_by_input).
+
+Therefore still remained an error :
+* “ End tag a violates nesting rules.”  
+ from dropdown menu that needs to be understood in order to be fixed.
+
+### CSS  
+css stylesheets were checked at [W3C CSS Validator](https://jigsaw.w3.org/css-validator/).
+Still remain a list of warnings related to -webkit-transition.
+Will be fixed and understood as I go further to the nexts modules.
+
+### Performance of  Website
+
+The performance of website pages were checked at Lighthouse Google Chrome tool. Still remain some improvements specially related to JavaScript as indicated below:
+
+* reduce unsused JavaScript
+* resources are blocking the first paint of your page. Consider delivering critical JS/CSS inline and deferring all non-critical JS/styles
+
+Note: Will be fixed as I go to the JavaScript module.
+
+## Unfixed Bugs
+
+In the About Us section of the homepage, there is a focus style which should be focused at the same time in one click.
+For this style, there are JavaScript resources.
+Will be fixed during JavaScript module
